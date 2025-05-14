@@ -1,6 +1,6 @@
 {
   "candidate_name": "Anchit Narayan",
-  "resume_file_path": "examples/Anchit_Narayan_Resume_Github.pdf",
+  "resume_file_path": "examples/Anchit_Narayan_Resume.pdf",
   "job_description_path": "examples/DoubleO_Job_Description.docx",
   "github_info": {
     "url": "https://github.com/anchitna",
@@ -18,25 +18,41 @@
       ],
       "primary_technologies": [
         "FastAPI",
-        "Uvicorn",
-        "Virtual Environments"
+        "LangGraph",
+        "Uvicorn"
       ]
     },
     "key_projects": [
       {
+        "name": "ai-recruiting-assistant",
+        "description": "An autonomous AI recruiting assistant built with LangGraph that analyzes resumes, performs web research, and evaluates candidates against job descriptions.",
+        "technologies": [
+          "Python",
+          "FastAPI",
+          "LangGraph"
+        ],
+        "purpose": "To streamline the recruiting process by automating resume analysis and candidate evaluation.",
+        "complexity": "High",
+        "notable_features": [
+          "Resume parsing",
+          "Web research",
+          "GitHub scraping",
+          "Conditional routing"
+        ]
+      },
+      {
         "name": "airline_data_cleaning",
-        "description": "A data cleaning pipeline for Airline Data Cleaning.",
+        "description": "A data cleaning pipeline for airline data.",
         "technologies": [
           "Python",
           "FastAPI",
           "Uvicorn"
         ],
-        "purpose": "To clean and process airline data using a FastAPI application.",
+        "purpose": "To clean and process airline data efficiently.",
         "complexity": "Medium",
         "notable_features": [
-          "FastAPI setup",
-          "Virtual environment management",
-          "API documentation"
+          "Data cleaning pipeline",
+          "API integration"
         ]
       },
       {
@@ -75,29 +91,30 @@
         {
           "name": "Python",
           "proficiency": "Medium",
-          "evidence": "Used in multiple projects including 'airline_data_cleaning' and 'BlogSite'."
+          "evidence": "Multiple projects using Python, including web applications and data processing."
         },
         {
           "name": "Java",
-          "proficiency": "Medium",
-          "evidence": "Used in 'PlacementAutomation' project."
+          "proficiency": "Low",
+          "evidence": "Single project with basic implementation."
         },
         {
           "name": "Jupyter Notebook",
           "proficiency": "Low",
-          "evidence": "Used in 'ProjectsAndApplicationOfDataScience'."
+          "evidence": "Single project with basic data science applications."
         }
       ],
       "technical_strengths": [
-        "API development",
-        "Data cleaning"
+        "Web application development",
+        "Data processing",
+        "API integration"
       ],
       "areas_of_expertise": [
-        "FastAPI",
-        "Data Science"
+        "AI and automation",
+        "Data cleaning"
       ]
     },
-    "overall_assessment": "Anchit Narayan's GitHub profile shows a focus on Python and Java projects with an emphasis on data cleaning and API development. The activity level is low, with no stars or forks, indicating limited external engagement. The use of FastAPI and virtual environments suggests a good understanding of modern Python web frameworks, but there is limited evidence of advanced software engineering practices such as testing or CI/CD.",
+    "overall_assessment": "Anchit Narayan's GitHub profile shows a focus on Python-based projects, particularly in web application development and data processing. The projects demonstrate a good understanding of integrating APIs and using frameworks like FastAPI. However, the overall activity level is low, with limited engagement in terms of stars and forks, suggesting room for growth in community involvement and project visibility.",
     "raw_data": {
       "user_info": {
         "username": "anchitna",
@@ -109,6 +126,16 @@
         "twitter": null
       },
       "repositories": [
+        {
+          "name": "ai-recruiting-assistant",
+          "description": null,
+          "language": "Python",
+          "stars": "0",
+          "forks": "0",
+          "updated_at": "2025-05-14T15:37:01Z",
+          "html_url": "https://github.com/anchitna/ai-recruiting-assistant",
+          "readme": "AI Recruiting Assistant\nAn autonomous AI recruiting assistant built with LangGraph that analyzes resumes, performs web research (including GitHub profiles), and evaluates candidates against job descriptions.\n\ud83e\udde9 Overview\nThis application helps streamline the recruiting process by:\nParsing and analyzing candidate resumes\nGathering additional data from the web, including GitHub repositories\nComparing candidates' qualifications to job requirements\nProviding a structured assessment with recommendations\n\ud83c\udfd7\ufe0f Architecture\nThe application follows a LangGraph architecture with conditional routing:\n\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n                  \u2502   FastAPI     \u2502\n                  \u2502   Endpoint    \u2502\n                  \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n                          \u2502\n                          \u25bc\n\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502                  LangGraph Workflow                     \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502                         \u2502                               \u2502\n\u2502                         \u25bc                               \u2502\n\u2502                  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                        \u2502\n\u2502                  \u2502   Resume    \u2502                        \u2502\n\u2502                  \u2502   Parser    \u2502                        \u2502\n\u2502                  \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2518                        \u2502\n\u2502                         \u2502                               \u2502\n\u2502                         \u25bc                               \u2502\n\u2502                  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                        \u2502\n\u2502                  \u2502     Job     \u2502                        \u2502\n\u2502                  \u2502 Description \u2502                        \u2502\n\u2502                  \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2518                        \u2502\n\u2502                         \u2502                               \u2502\n\u2502                         \u25bc                               \u2502\n\u2502                  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                        \u2502\n\u2502     \u250c\u2500\u2500\u2500\u2500No GitHub\u2500\u2500\u2500\u2524   Check    \u2502                     \u2502\n\u2502     \u2502        Info    \u2502  GitHub    \u2502                     \u2502\n\u2502     \u2502                \u2502   Info     \u2502                     \u2502\n\u2502     \u2502                \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2518                     \u2502\n\u2502     \u2502                       \u2502                           \u2502\n\u2502     \u2502                       \u2502 GitHub Info Found         \u2502\n\u2502     \u2502                       \u25bc                           \u2502\n\u2502     \u2502                \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                    \u2502\n\u2502     \u2502                \u2502   GitHub    \u2502                    \u2502\n\u2502     \u2502                \u2502  Research   \u2502                    \u2502\n\u2502     \u2502                \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2518                    \u2502\n\u2502     \u2502                       \u2502                           \u2502\n\u2502     \u25bc                       \u25bc                           \u2502\n\u2502 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510      \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                    \u2502\n\u2502 \u2502     Web     \u2502\u25c0\u2500\u2500\u2500\u2500\u2500\u2502     Web     \u2502                    \u2502\n\u2502 \u2502  Research   \u2502      \u2502  Research   \u2502                    \u2502\n\u2502 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2518      \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518                    \u2502\n\u2502        \u2502                                                \u2502\n\u2502        \u25bc                                                \u2502\n\u2502 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                                        \u2502\n\u2502 \u2502   Profile    \u2502                                        \u2502\n\u2502 \u2502   Creation   \u2502                                        \u2502\n\u2502 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518                                        \u2502\n\u2502        \u2502                                                \u2502\n\u2502        \u25bc                                                \u2502\n\u2502 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                                        \u2502\n\u2502 \u2502   Compare    \u2502                                        \u2502\n\u2502 \u2502  Candidate   \u2502                                        \u2502\n\u2502 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518                                        \u2502\n\u2502        \u2502                                                \u2502\n\u2502        \u25bc                                                \u2502\n\u2502 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                                        \u2502\n\u2502 \u2502    Final     \u2502                                        \u2502\n\u2502 \u2502   Decision   \u2502                                        \u2502\n\u2502 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518                                        \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\nKey Components:\nState Management\n(\nstate.py\n): Defines the TypedDict structures for workflow state\nNodes\n(\nnodes.py\n): Implements business logic for each workflow step\nGraph\n(\ngraph.py\n): Orchestrates the workflow with LangGraph and conditional routing\nPrompts\n(\nprompts/\n): Contains prompt templates for various analysis tasks\nUtils\n(\nutils/\n): Provides utilities for document parsing and GitHub scraping\nAPI\n(\napp.py\n): Exposes a FastAPI endpoint for integration\n\ud83d\udee0\ufe0f Setup Instructions\nPrerequisites\nPython 3.9+\nRequired API keys:\nOpenAI API key (for GPT models)\nTavily API key (for web search)\nInstallation\nClone this repository:\ngit clone https://github.com/yourusername/ai-recruiting-assistant.git\ncd\nai-recruiting-assistant\nSet up a virtual environment:\npython -m venv venv\nsource\nvenv/bin/activate\n#\nOn Windows: venv\\Scripts\\activate\nInstall the dependencies:\npip install -r requirements.txt\nCreate a\n.env\nfile with your API keys:\ntouch .env\nAdd your API keys to the\n.env\nfile:\nO...[truncated]"
+        },
         {
           "name": "airline_data_cleaning",
           "description": "A data cleaning pipeline, currently working for Airline Data Cleaning.",
@@ -214,7 +241,7 @@
       "FastAPI",
       "Uvicorn",
       "Nginx",
-      "AWS (EC2, RDS)",
+      "AWS",
       "GCP",
       "Git",
       "LangChain",
@@ -237,12 +264,12 @@
       "MRO Product Search \u2013 Raptor Supplies"
     ],
     "online_profiles": {
-      "github": "https://github.com/anchitna",
+      "github": null,
       "linkedin": "https://linkedin.com/in/anchitna/",
-      "personal_website": null,
+      "personal_website": "https://anchitna.wordpress.com/",
       "other_profiles": []
     },
-    "raw_text": "ANCHIT\nNARAYAN\nanchit.na@gmail.com\n+91 9855816826\nNew Delhi India\nlinkedin.com/in/anchitna/\nhttps://github.com/anchitna/Experienced with creating robust software applications tailored to\nclient needs. I specialize in building AI-powered solutions using\nPython, FastAPI, Elasticsearch, LangChain and LangGraph. Strong\nunderstanding of software development lifecycle and agile\nmethodologies.PROFESSIONAL SUMMARY\nSKILLS\nProgramming: Python, C/C++,\nJavaScript, SQL.\u2022\nFrameworks: FastAPI, Uvicorn,\nNginx, AWS(EC2, RDS), GCP , Git,\nLangChain, LangGraph.\u2022\nSkills: Problem Solving, Data\nStructures & Algorithms, Object\nOriented Programming.\u2022\nDatabases: Elastic Search, Redis,\nPostgreSQL, MySQL, Qdrant.\u2022\nPlaksha University\nMohali, India \u202208/2023\nPost Graduate Diploma :AI, ML &\nLeadership\nSelected as one of 60 students from\na pool of over 1,000 applicants\nChandigarh University\nMohali, India \u202207/2019\nB.E.:Computer Science &\nEngineering\nGraduated with an Honours in Big\nData EngineeringEDUCATIONBicycle AI  - Software Engineer - AI Agents\nHyderabad, India \u202201/2025  - Current\nRaptor Supplies Limited  - Full Stack Engineer\nNew Delhi, India \u202210/2023  - 01/2025WORK HISTORY\nDesigned and implemented a LangGraph-based workflow that\ngenerates personalized sales content tailored to target\ncompanies, based on their domain input. The system automates\ncontent creation and integrates with a UI component to\ndynamically build custom websites for high-impact, company-\nspecific sales pitches.\u2022\nDeveloped a report and data story generator tailored to\ncompany-specific requirements, enabling dynamic content\ncreation from internal data. Integrated a secure code execution\nenvironment to allow custom script execution by company users.\u2022\nCreated a unified workflow to handle multiple LLM model and\nstream outputs in real time, enabling the UI component to\ndisplay responses continuously for a seamless user experience.\u2022\nFull Stack Engineer at Raptor Supplies, specializing in AI and\nbackend technologies using Python, FastAPI, Elastic Search,\nPostgres and LangChain.\u2022\nDeveloped a Product Search Engine for the organization using\nElastic Search, initially exploring both semantic and lexical\nsearch methods before opting for a hybrid lexical search\napproach. Achieved a query time of 0.4 seconds in Elastic Search\nfor improved search performance.\u2022\nWorked on an advanced Retrieval Augmented Generation (RAG)\nsystem designed for the MRO (Maintenance, Repair, and\nOperations) industry. This system utilizes custom models and a\nprompt-based approach for intent classification and entity\nrecognition, and it integrates with a database via Elasticsearch.\nThe entire setup is hosted on Amazon EC2 with a FastAPI\napplication and Nginx serving as the load balancer.\u2022\nThe project aims to create a ChatGPT-like engine specifically\ntailored for the MRO sector, with various components that can\nalso function independently.\u2022\n\nJM Financial (blinkX)  - Data Science Intern\nMumbai, India \u202203/2023  - 05/2023\nFICO - Software Engineer\nBengaluru, India \u202207/2019  - 06/2022Technical Skills: Python, FastAPI, Uvicorn, AWS, OpenAI, Git,\nLangchain, Postgres, Shell, Nginx, EC2.\u2022\nDeveloped a Text Summarization workflow to summarize a\n200-page financial document in 500, 1000 and 5000 words each.\u2022\nCreated a workflow to create fragments and word embeddings of\nmore than 1000 documents of around 200 pages each.\u2022\nWorked on creating hyper-personalized nudge and\nrecommending based on user stock preference and market.\u2022\nTechnical Skills: Python, GCP , Pandas, scikit-learn, OpenAI,\nNumpy.\u2022\nWorked on Angular, TypeScript and JavaScript to develop a Rapid\nAction Development Tool.\u2022\nCreated a workflow to create fragments and word embeddings of\nmore than 1000 documents of around 200 pages each.\u2022\nWorked on Cloudify (an orchestration tool) to automate\ndeployment notifications. Developed a shell system which\nconnects with the database and automatically informs users\nabout the status of their deployments.\u2022\nWorked on Jenkins to automate and schedule manual tasks.\u2022\nJoined as an intern in January 2019 for 6 months and\nsuccessfully transitioned to a full-time position. Developed an\nAnsible Plugin to automate the workflow, including the\ninstallation of Ansible on the VM and execution of playbooks with\nvarious inputs across multiple nodes.\u2022\nTechnical Skills: Javascript, Typescript, Java, Ansible, Cloudify,\nScripting.\u2022\nEnglish: Professional proficiency Hindi: Native proficiencyLANGUAGES\nPROJECTS\nSales Microsite  \u2013 Bicycle AI\nDeveloped a LangGraph-based workflow that generates\npersonalized sales content from a target company's domain,\nhelping the sales team craft tailored value propositions. The\ngenerated content is streamed to a UI component to build\ndynamic microsites for personalized outbound sales campaigns.\nTechnologies: LangGraph, Claude, OpenAI, Python\u2022\nMRO Chat Engine Development  \u2013 Raptor Supplies\nDesigned a ChatGPT-like engine for the MRO industry using a\nmodular RAG architecture with dedicated components for intent\nclassification, entity recognition, and Elasticsearch-backed\nretrieval. Experimented with agentic models (CrewAI, OpenAI\nAssistants) for early-stage automation, later optimizing with a\ncustom workflow.\nTechnologies: FastAPI, React, Qdrant, LangChain, OpenAI,\nHugging Face, Python\u2022\nDocument RAG Pipeline Development  \u2013 Raptor Supplies\nBuilt a document RAG pipeline using PDFMiner for text\nextraction and image conversion from PDFs, leveraging OpenAI\u2022\nand Gemini for image analysis and table extraction.\nImplemented chunking and Qdrant-based embedding search to\nenhance document-query performance.\nTechnologies: PDFMiner, OpenAI, Gemini, Qdrant\nMRO Product Search  \u2013 Raptor Supplies\nDeveloped a lexical search engine for MRO products using\nElasticsearch, enabling efficient and accurate product retrieval\nfrom large catalogs.\nTechnologies: Elasticsearch\u2022\nACHIEVEMENTS\n2020 Leadership, Led a team of interns, providing training on\ndesign principles and project-specific technologies.\u2022\n2019 Spot Award, Awarded by spot award(recognition for work)\nin consecutive months.\u2022\n2014 School Football Team Captain, Captained football team in\nClass XIIth.\u2022"
+    "raw_text": "ANCHIT\nNARAYAN\nanchit.na@gmail.com\n+91 9855816826\nNew Delhi India\nlinkedin.com/in/anchitna/\nhttps://anchitna.wordpress.co\nm/Experienced with creating robust software applications tailored to\nclient needs. I specialize in building AI-powered solutions using\nPython, FastAPI, Elasticsearch, LangChain and LangGraph. Strong\nunderstanding of software development lifecycle and agile\nmethodologies.PROFESSIONAL SUMMARY\nSKILLS\nProgramming: Python, C/C++,\nJavaScript, SQL.\u2022\nFrameworks: FastAPI, Uvicorn,\nNginx, AWS(EC2, RDS), GCP , Git,\nLangChain, LangGraph.\u2022\nSkills: Problem Solving, Data\nStructures & Algorithms, Object\nOriented Programming.\u2022\nDatabases: Elastic Search, Redis,\nPostgreSQL, MySQL, Qdrant.\u2022\nPlaksha University\nMohali, India \u202208/2023\nPost Graduate Diploma :AI, ML &\nLeadership\nSelected as one of 60 students from\na pool of over 1,000 applicants\nChandigarh University\nMohali, India \u202207/2019\nB.E.:Computer Science &\nEngineering\nGraduated with an Honours in Big\nData EngineeringEDUCATIONBicycle AI  - Software Engineer - AI Agents\nHyderabad, India \u202201/2025  - Current\nRaptor Supplies Limited  - Full Stack Engineer\nNew Delhi, India \u202210/2023  - 01/2025WORK HISTORY\nDesigned and implemented a LangGraph-based workflow that\ngenerates personalized sales content tailored to target\ncompanies, based on their domain input. The system automates\ncontent creation and integrates with a UI component to\ndynamically build custom websites for high-impact, company-\nspecific sales pitches.\u2022\nDeveloped a report and data story generator tailored to\ncompany-specific requirements, enabling dynamic content\ncreation from internal data. Integrated a secure code execution\nenvironment to allow custom script execution by company users.\u2022\nCreated a unified workflow to handle multiple LLM model and\nstream outputs in real time, enabling the UI component to\ndisplay responses continuously for a seamless user experience.\u2022\nFull Stack Engineer at Raptor Supplies, specializing in AI and\nbackend technologies using Python, FastAPI, Elastic Search,\nPostgres and LangChain.\u2022\nDeveloped a Product Search Engine for the organization using\nElastic Search, initially exploring both semantic and lexical\nsearch methods before opting for a hybrid lexical search\napproach. Achieved a query time of 0.4 seconds in Elastic Search\nfor improved search performance.\u2022\nWorked on an advanced Retrieval Augmented Generation (RAG)\nsystem designed for the MRO (Maintenance, Repair, and\nOperations) industry. This system utilizes custom models and a\nprompt-based approach for intent classification and entity\nrecognition, and it integrates with a database via Elasticsearch.\nThe entire setup is hosted on Amazon EC2 with a FastAPI\napplication and Nginx serving as the load balancer.\u2022\nThe project aims to create a ChatGPT-like engine specifically\ntailored for the MRO sector, with various components that can\nalso function independently.\u2022\n\nJM Financial (blinkX)  - Data Science Intern\nMumbai, India \u202203/2023  - 05/2023\nFICO - Software Engineer\nBengaluru, India \u202207/2019  - 06/2022Technical Skills: Python, FastAPI, Uvicorn, AWS, OpenAI, Git,\nLangchain, Postgres, Shell, Nginx, EC2.\u2022\nDeveloped a Text Summarization workflow to summarize a\n200-page financial document in 500, 1000 and 5000 words each.\u2022\nCreated a workflow to create fragments and word embeddings of\nmore than 1000 documents of around 200 pages each.\u2022\nWorked on creating hyper-personalized nudge and\nrecommending based on user stock preference and market.\u2022\nTechnical Skills: Python, GCP , Pandas, scikit-learn, OpenAI,\nNumpy.\u2022\nWorked on Angular, TypeScript and JavaScript to develop a Rapid\nAction Development Tool.\u2022\nCreated a workflow to create fragments and word embeddings of\nmore than 1000 documents of around 200 pages each.\u2022\nWorked on Cloudify (an orchestration tool) to automate\ndeployment notifications. Developed a shell system which\nconnects with the database and automatically informs users\nabout the status of their deployments.\u2022\nWorked on Jenkins to automate and schedule manual tasks.\u2022\nJoined as an intern in January 2019 for 6 months and\nsuccessfully transitioned to a full-time position. Developed an\nAnsible Plugin to automate the workflow, including the\ninstallation of Ansible on the VM and execution of playbooks with\nvarious inputs across multiple nodes.\u2022\nTechnical Skills: Javascript, Typescript, Java, Ansible, Cloudify,\nScripting.\u2022\nEnglish: Professional proficiency Hindi: Native proficiencyLANGUAGES\nPROJECTS\nSales Microsite  \u2013 Bicycle AI\nDeveloped a LangGraph-based workflow that generates\npersonalized sales content from a target company's domain,\nhelping the sales team craft tailored value propositions. The\ngenerated content is streamed to a UI component to build\ndynamic microsites for personalized outbound sales campaigns.\nTechnologies: LangGraph, Claude, OpenAI, Python\u2022\nMRO Chat Engine Development  \u2013 Raptor Supplies\nDesigned a ChatGPT-like engine for the MRO industry using a\nmodular RAG architecture with dedicated components for intent\nclassification, entity recognition, and Elasticsearch-backed\nretrieval. Experimented with agentic models (CrewAI, OpenAI\nAssistants) for early-stage automation, later optimizing with a\ncustom workflow.\nTechnologies: FastAPI, React, Qdrant, LangChain, OpenAI,\nHugging Face, Python\u2022\nDocument RAG Pipeline Development  \u2013 Raptor Supplies\nBuilt a document RAG pipeline using PDFMiner for text\nextraction and image conversion from PDFs, leveraging OpenAI\u2022\nand Gemini for image analysis and table extraction.\nImplemented chunking and Qdrant-based embedding search to\nenhance document-query performance.\nTechnologies: PDFMiner, OpenAI, Gemini, Qdrant\nMRO Product Search  \u2013 Raptor Supplies\nDeveloped a lexical search engine for MRO products using\nElasticsearch, enabling efficient and accurate product retrieval\nfrom large catalogs.\nTechnologies: Elasticsearch\u2022\nACHIEVEMENTS\n2020 Leadership, Led a team of interns, providing training on\ndesign principles and project-specific technologies.\u2022\n2019 Spot Award, Awarded by spot award(recognition for work)\nin consecutive months.\u2022\n2014 School Football Team Captain, Captained football team in\nClass XIIth.\u2022"
   },
   "job_requirements": {
     "core_skills": [
@@ -275,19 +302,35 @@
       ],
       "key_projects": [
         {
+          "name": "ai-recruiting-assistant",
+          "description": "An autonomous AI recruiting assistant built with LangGraph that analyzes resumes, performs web research, and evaluates candidates against job descriptions.",
+          "technologies": [
+            "Python",
+            "FastAPI",
+            "LangGraph"
+          ],
+          "purpose": "To streamline the recruiting process by automating resume analysis and candidate evaluation.",
+          "complexity": "High",
+          "notable_features": [
+            "Resume parsing",
+            "Web research",
+            "GitHub scraping",
+            "Conditional routing"
+          ]
+        },
+        {
           "name": "airline_data_cleaning",
-          "description": "A data cleaning pipeline for Airline Data Cleaning.",
+          "description": "A data cleaning pipeline for airline data.",
           "technologies": [
             "Python",
             "FastAPI",
             "Uvicorn"
           ],
-          "purpose": "To clean and process airline data using a FastAPI application.",
+          "purpose": "To clean and process airline data efficiently.",
           "complexity": "Medium",
           "notable_features": [
-            "FastAPI setup",
-            "Virtual environment management",
-            "API documentation"
+            "Data cleaning pipeline",
+            "API integration"
           ]
         },
         {
@@ -342,6 +385,16 @@
           "twitter": null
         },
         "repositories": [
+          {
+            "name": "ai-recruiting-assistant",
+            "description": null,
+            "language": "Python",
+            "stars": "0",
+            "forks": "0",
+            "updated_at": "2025-05-14T15:37:01Z",
+            "html_url": "https://github.com/anchitna/ai-recruiting-assistant",
+            "readme": "AI Recruiting Assistant\nAn autonomous AI recruiting assistant built with LangGraph that analyzes resumes, performs web research (including GitHub profiles), and evaluates candidates against job descriptions.\n\ud83e\udde9 Overview\nThis application helps streamline the recruiting process by:\nParsing and analyzing candidate resumes\nGathering additional data from the web, including GitHub repositories\nComparing candidates' qualifications to job requirements\nProviding a structured assessment with recommendations\n\ud83c\udfd7\ufe0f Architecture\nThe application follows a LangGraph architecture with conditional routing:\n\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n                  \u2502   FastAPI     \u2502\n                  \u2502   Endpoint    \u2502\n                  \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n                          \u2502\n                          \u25bc\n\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502                  LangGraph Workflow                     \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502                         \u2502                               \u2502\n\u2502                         \u25bc                               \u2502\n\u2502                  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                        \u2502\n\u2502                  \u2502   Resume    \u2502                        \u2502\n\u2502                  \u2502   Parser    \u2502                        \u2502\n\u2502                  \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2518                        \u2502\n\u2502                         \u2502                               \u2502\n\u2502                         \u25bc                               \u2502\n\u2502                  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                        \u2502\n\u2502                  \u2502     Job     \u2502                        \u2502\n\u2502                  \u2502 Description \u2502                        \u2502\n\u2502                  \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2518                        \u2502\n\u2502                         \u2502                               \u2502\n\u2502                         \u25bc                               \u2502\n\u2502                  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                        \u2502\n\u2502     \u250c\u2500\u2500\u2500\u2500No GitHub\u2500\u2500\u2500\u2524   Check    \u2502                     \u2502\n\u2502     \u2502        Info    \u2502  GitHub    \u2502                     \u2502\n\u2502     \u2502                \u2502   Info     \u2502                     \u2502\n\u2502     \u2502                \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2518                     \u2502\n\u2502     \u2502                       \u2502                           \u2502\n\u2502     \u2502                       \u2502 GitHub Info Found         \u2502\n\u2502     \u2502                       \u25bc                           \u2502\n\u2502     \u2502                \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                    \u2502\n\u2502     \u2502                \u2502   GitHub    \u2502                    \u2502\n\u2502     \u2502                \u2502  Research   \u2502                    \u2502\n\u2502     \u2502                \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2518                    \u2502\n\u2502     \u2502                       \u2502                           \u2502\n\u2502     \u25bc                       \u25bc                           \u2502\n\u2502 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510      \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                    \u2502\n\u2502 \u2502     Web     \u2502\u25c0\u2500\u2500\u2500\u2500\u2500\u2502     Web     \u2502                    \u2502\n\u2502 \u2502  Research   \u2502      \u2502  Research   \u2502                    \u2502\n\u2502 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2518      \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518                    \u2502\n\u2502        \u2502                                                \u2502\n\u2502        \u25bc                                                \u2502\n\u2502 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                                        \u2502\n\u2502 \u2502   Profile    \u2502                                        \u2502\n\u2502 \u2502   Creation   \u2502                                        \u2502\n\u2502 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518                                        \u2502\n\u2502        \u2502                                                \u2502\n\u2502        \u25bc                                                \u2502\n\u2502 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                                        \u2502\n\u2502 \u2502   Compare    \u2502                                        \u2502\n\u2502 \u2502  Candidate   \u2502                                        \u2502\n\u2502 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518                                        \u2502\n\u2502        \u2502                                                \u2502\n\u2502        \u25bc                                                \u2502\n\u2502 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                                        \u2502\n\u2502 \u2502    Final     \u2502                                        \u2502\n\u2502 \u2502   Decision   \u2502                                        \u2502\n\u2502 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518                                        \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\nKey Components:\nState Management\n(\nstate.py\n): Defines the TypedDict structures for workflow state\nNodes\n(\nnodes.py\n): Implements business logic for each workflow step\nGraph\n(\ngraph.py\n): Orchestrates the workflow with LangGraph and conditional routing\nPrompts\n(\nprompts/\n): Contains prompt templates for various analysis tasks\nUtils\n(\nutils/\n): Provides utilities for document parsing and GitHub scraping\nAPI\n(\napp.py\n): Exposes a FastAPI endpoint for integration\n\ud83d\udee0\ufe0f Setup Instructions\nPrerequisites\nPython 3.9+\nRequired API keys:\nOpenAI API key (for GPT models)\nTavily API key (for web search)\nInstallation\nClone this repository:\ngit clone https://github.com/yourusername/ai-recruiting-assistant.git\ncd\nai-recruiting-assistant\nSet up a virtual environment:\npython -m venv venv\nsource\nvenv/bin/activate\n#\nOn Windows: venv\\Scripts\\activate\nInstall the dependencies:\npip install -r requirements.txt\nCreate a\n.env\nfile with your API keys:\ntouch .env\nAdd your API keys to the\n.env\nfile:\nO...[truncated]"
+          },
           {
             "name": "airline_data_cleaning",
             "description": "A data cleaning pipeline, currently working for Airline Data Cleaning.",
@@ -518,7 +571,7 @@
         "FastAPI",
         "Uvicorn",
         "Nginx",
-        "AWS (EC2, RDS)",
+        "AWS",
         "GCP",
         "Git",
         "LangChain",
@@ -541,12 +594,12 @@
         "MRO Product Search \u2013 Raptor Supplies"
       ],
       "online_profiles": {
-        "github": "https://github.com/anchitna",
+        "github": null,
         "linkedin": "https://linkedin.com/in/anchitna/",
-        "personal_website": null,
+        "personal_website": "https://anchitna.wordpress.com/",
         "other_profiles": []
       },
-      "raw_text": "ANCHIT\nNARAYAN\nanchit.na@gmail.com\n+91 9855816826\nNew Delhi India\nlinkedin.com/in/anchitna/\nhttps://github.com/anchitna/Experienced with creating robust software applications tailored to\nclient needs. I specialize in building AI-powered solutions using\nPython, FastAPI, Elasticsearch, LangChain and LangGraph. Strong\nunderstanding of software development lifecycle and agile\nmethodologies.PROFESSIONAL SUMMARY\nSKILLS\nProgramming: Python, C/C++,\nJavaScript, SQL.\u2022\nFrameworks: FastAPI, Uvicorn,\nNginx, AWS(EC2, RDS), GCP , Git,\nLangChain, LangGraph.\u2022\nSkills: Problem Solving, Data\nStructures & Algorithms, Object\nOriented Programming.\u2022\nDatabases: Elastic Search, Redis,\nPostgreSQL, MySQL, Qdrant.\u2022\nPlaksha University\nMohali, India \u202208/2023\nPost Graduate Diploma :AI, ML &\nLeadership\nSelected as one of 60 students from\na pool of over 1,000 applicants\nChandigarh University\nMohali, India \u202207/2019\nB.E.:Computer Science &\nEngineering\nGraduated with an Honours in Big\nData EngineeringEDUCATIONBicycle AI  - Software Engineer - AI Agents\nHyderabad, India \u202201/2025  - Current\nRaptor Supplies Limited  - Full Stack Engineer\nNew Delhi, India \u202210/2023  - 01/2025WORK HISTORY\nDesigned and implemented a LangGraph-based workflow that\ngenerates personalized sales content tailored to target\ncompanies, based on their domain input. The system automates\ncontent creation and integrates with a UI component to\ndynamically build custom websites for high-impact, company-\nspecific sales pitches.\u2022\nDeveloped a report and data story generator tailored to\ncompany-specific requirements, enabling dynamic content\ncreation from internal data. Integrated a secure code execution\nenvironment to allow custom script execution by company users.\u2022\nCreated a unified workflow to handle multiple LLM model and\nstream outputs in real time, enabling the UI component to\ndisplay responses continuously for a seamless user experience.\u2022\nFull Stack Engineer at Raptor Supplies, specializing in AI and\nbackend technologies using Python, FastAPI, Elastic Search,\nPostgres and LangChain.\u2022\nDeveloped a Product Search Engine for the organization using\nElastic Search, initially exploring both semantic and lexical\nsearch methods before opting for a hybrid lexical search\napproach. Achieved a query time of 0.4 seconds in Elastic Search\nfor improved search performance.\u2022\nWorked on an advanced Retrieval Augmented Generation (RAG)\nsystem designed for the MRO (Maintenance, Repair, and\nOperations) industry. This system utilizes custom models and a\nprompt-based approach for intent classification and entity\nrecognition, and it integrates with a database via Elasticsearch.\nThe entire setup is hosted on Amazon EC2 with a FastAPI\napplication and Nginx serving as the load balancer.\u2022\nThe project aims to create a ChatGPT-like engine specifically\ntailored for the MRO sector, with various components that can\nalso function independently.\u2022\n\nJM Financial (blinkX)  - Data Science Intern\nMumbai, India \u202203/2023  - 05/2023\nFICO - Software Engineer\nBengaluru, India \u202207/2019  - 06/2022Technical Skills: Python, FastAPI, Uvicorn, AWS, OpenAI, Git,\nLangchain, Postgres, Shell, Nginx, EC2.\u2022\nDeveloped a Text Summarization workflow to summarize a\n200-page financial document in 500, 1000 and 5000 words each.\u2022\nCreated a workflow to create fragments and word embeddings of\nmore than 1000 documents of around 200 pages each.\u2022\nWorked on creating hyper-personalized nudge and\nrecommending based on user stock preference and market.\u2022\nTechnical Skills: Python, GCP , Pandas, scikit-learn, OpenAI,\nNumpy.\u2022\nWorked on Angular, TypeScript and JavaScript to develop a Rapid\nAction Development Tool.\u2022\nCreated a workflow to create fragments and word embeddings of\nmore than 1000 documents of around 200 pages each.\u2022\nWorked on Cloudify (an orchestration tool) to automate\ndeployment notifications. Developed a shell system which\nconnects with the database and automatically informs users\nabout the status of their deployments.\u2022\nWorked on Jenkins to automate and schedule manual tasks.\u2022\nJoined as an intern in January 2019 for 6 months and\nsuccessfully transitioned to a full-time position. Developed an\nAnsible Plugin to automate the workflow, including the\ninstallation of Ansible on the VM and execution of playbooks with\nvarious inputs across multiple nodes.\u2022\nTechnical Skills: Javascript, Typescript, Java, Ansible, Cloudify,\nScripting.\u2022\nEnglish: Professional proficiency Hindi: Native proficiencyLANGUAGES\nPROJECTS\nSales Microsite  \u2013 Bicycle AI\nDeveloped a LangGraph-based workflow that generates\npersonalized sales content from a target company's domain,\nhelping the sales team craft tailored value propositions. The\ngenerated content is streamed to a UI component to build\ndynamic microsites for personalized outbound sales campaigns.\nTechnologies: LangGraph, Claude, OpenAI, Python\u2022\nMRO Chat Engine Development  \u2013 Raptor Supplies\nDesigned a ChatGPT-like engine for the MRO industry using a\nmodular RAG architecture with dedicated components for intent\nclassification, entity recognition, and Elasticsearch-backed\nretrieval. Experimented with agentic models (CrewAI, OpenAI\nAssistants) for early-stage automation, later optimizing with a\ncustom workflow.\nTechnologies: FastAPI, React, Qdrant, LangChain, OpenAI,\nHugging Face, Python\u2022\nDocument RAG Pipeline Development  \u2013 Raptor Supplies\nBuilt a document RAG pipeline using PDFMiner for text\nextraction and image conversion from PDFs, leveraging OpenAI\u2022\nand Gemini for image analysis and table extraction.\nImplemented chunking and Qdrant-based embedding search to\nenhance document-query performance.\nTechnologies: PDFMiner, OpenAI, Gemini, Qdrant\nMRO Product Search  \u2013 Raptor Supplies\nDeveloped a lexical search engine for MRO products using\nElasticsearch, enabling efficient and accurate product retrieval\nfrom large catalogs.\nTechnologies: Elasticsearch\u2022\nACHIEVEMENTS\n2020 Leadership, Led a team of interns, providing training on\ndesign principles and project-specific technologies.\u2022\n2019 Spot Award, Awarded by spot award(recognition for work)\nin consecutive months.\u2022\n2014 School Football Team Captain, Captained football team in\nClass XIIth.\u2022"
+      "raw_text": "ANCHIT\nNARAYAN\nanchit.na@gmail.com\n+91 9855816826\nNew Delhi India\nlinkedin.com/in/anchitna/\nhttps://anchitna.wordpress.co\nm/Experienced with creating robust software applications tailored to\nclient needs. I specialize in building AI-powered solutions using\nPython, FastAPI, Elasticsearch, LangChain and LangGraph. Strong\nunderstanding of software development lifecycle and agile\nmethodologies.PROFESSIONAL SUMMARY\nSKILLS\nProgramming: Python, C/C++,\nJavaScript, SQL.\u2022\nFrameworks: FastAPI, Uvicorn,\nNginx, AWS(EC2, RDS), GCP , Git,\nLangChain, LangGraph.\u2022\nSkills: Problem Solving, Data\nStructures & Algorithms, Object\nOriented Programming.\u2022\nDatabases: Elastic Search, Redis,\nPostgreSQL, MySQL, Qdrant.\u2022\nPlaksha University\nMohali, India \u202208/2023\nPost Graduate Diploma :AI, ML &\nLeadership\nSelected as one of 60 students from\na pool of over 1,000 applicants\nChandigarh University\nMohali, India \u202207/2019\nB.E.:Computer Science &\nEngineering\nGraduated with an Honours in Big\nData EngineeringEDUCATIONBicycle AI  - Software Engineer - AI Agents\nHyderabad, India \u202201/2025  - Current\nRaptor Supplies Limited  - Full Stack Engineer\nNew Delhi, India \u202210/2023  - 01/2025WORK HISTORY\nDesigned and implemented a LangGraph-based workflow that\ngenerates personalized sales content tailored to target\ncompanies, based on their domain input. The system automates\ncontent creation and integrates with a UI component to\ndynamically build custom websites for high-impact, company-\nspecific sales pitches.\u2022\nDeveloped a report and data story generator tailored to\ncompany-specific requirements, enabling dynamic content\ncreation from internal data. Integrated a secure code execution\nenvironment to allow custom script execution by company users.\u2022\nCreated a unified workflow to handle multiple LLM model and\nstream outputs in real time, enabling the UI component to\ndisplay responses continuously for a seamless user experience.\u2022\nFull Stack Engineer at Raptor Supplies, specializing in AI and\nbackend technologies using Python, FastAPI, Elastic Search,\nPostgres and LangChain.\u2022\nDeveloped a Product Search Engine for the organization using\nElastic Search, initially exploring both semantic and lexical\nsearch methods before opting for a hybrid lexical search\napproach. Achieved a query time of 0.4 seconds in Elastic Search\nfor improved search performance.\u2022\nWorked on an advanced Retrieval Augmented Generation (RAG)\nsystem designed for the MRO (Maintenance, Repair, and\nOperations) industry. This system utilizes custom models and a\nprompt-based approach for intent classification and entity\nrecognition, and it integrates with a database via Elasticsearch.\nThe entire setup is hosted on Amazon EC2 with a FastAPI\napplication and Nginx serving as the load balancer.\u2022\nThe project aims to create a ChatGPT-like engine specifically\ntailored for the MRO sector, with various components that can\nalso function independently.\u2022\n\nJM Financial (blinkX)  - Data Science Intern\nMumbai, India \u202203/2023  - 05/2023\nFICO - Software Engineer\nBengaluru, India \u202207/2019  - 06/2022Technical Skills: Python, FastAPI, Uvicorn, AWS, OpenAI, Git,\nLangchain, Postgres, Shell, Nginx, EC2.\u2022\nDeveloped a Text Summarization workflow to summarize a\n200-page financial document in 500, 1000 and 5000 words each.\u2022\nCreated a workflow to create fragments and word embeddings of\nmore than 1000 documents of around 200 pages each.\u2022\nWorked on creating hyper-personalized nudge and\nrecommending based on user stock preference and market.\u2022\nTechnical Skills: Python, GCP , Pandas, scikit-learn, OpenAI,\nNumpy.\u2022\nWorked on Angular, TypeScript and JavaScript to develop a Rapid\nAction Development Tool.\u2022\nCreated a workflow to create fragments and word embeddings of\nmore than 1000 documents of around 200 pages each.\u2022\nWorked on Cloudify (an orchestration tool) to automate\ndeployment notifications. Developed a shell system which\nconnects with the database and automatically informs users\nabout the status of their deployments.\u2022\nWorked on Jenkins to automate and schedule manual tasks.\u2022\nJoined as an intern in January 2019 for 6 months and\nsuccessfully transitioned to a full-time position. Developed an\nAnsible Plugin to automate the workflow, including the\ninstallation of Ansible on the VM and execution of playbooks with\nvarious inputs across multiple nodes.\u2022\nTechnical Skills: Javascript, Typescript, Java, Ansible, Cloudify,\nScripting.\u2022\nEnglish: Professional proficiency Hindi: Native proficiencyLANGUAGES\nPROJECTS\nSales Microsite  \u2013 Bicycle AI\nDeveloped a LangGraph-based workflow that generates\npersonalized sales content from a target company's domain,\nhelping the sales team craft tailored value propositions. The\ngenerated content is streamed to a UI component to build\ndynamic microsites for personalized outbound sales campaigns.\nTechnologies: LangGraph, Claude, OpenAI, Python\u2022\nMRO Chat Engine Development  \u2013 Raptor Supplies\nDesigned a ChatGPT-like engine for the MRO industry using a\nmodular RAG architecture with dedicated components for intent\nclassification, entity recognition, and Elasticsearch-backed\nretrieval. Experimented with agentic models (CrewAI, OpenAI\nAssistants) for early-stage automation, later optimizing with a\ncustom workflow.\nTechnologies: FastAPI, React, Qdrant, LangChain, OpenAI,\nHugging Face, Python\u2022\nDocument RAG Pipeline Development  \u2013 Raptor Supplies\nBuilt a document RAG pipeline using PDFMiner for text\nextraction and image conversion from PDFs, leveraging OpenAI\u2022\nand Gemini for image analysis and table extraction.\nImplemented chunking and Qdrant-based embedding search to\nenhance document-query performance.\nTechnologies: PDFMiner, OpenAI, Gemini, Qdrant\nMRO Product Search  \u2013 Raptor Supplies\nDeveloped a lexical search engine for MRO products using\nElasticsearch, enabling efficient and accurate product retrieval\nfrom large catalogs.\nTechnologies: Elasticsearch\u2022\nACHIEVEMENTS\n2020 Leadership, Led a team of interns, providing training on\ndesign principles and project-specific technologies.\u2022\n2019 Spot Award, Awarded by spot award(recognition for work)\nin consecutive months.\u2022\n2014 School Football Team Captain, Captained football team in\nClass XIIth.\u2022"
     },
     "web_research": {
       "github_info": {
@@ -559,19 +612,35 @@
         ],
         "key_projects": [
           {
+            "name": "ai-recruiting-assistant",
+            "description": "An autonomous AI recruiting assistant built with LangGraph that analyzes resumes, performs web research, and evaluates candidates against job descriptions.",
+            "technologies": [
+              "Python",
+              "FastAPI",
+              "LangGraph"
+            ],
+            "purpose": "To streamline the recruiting process by automating resume analysis and candidate evaluation.",
+            "complexity": "High",
+            "notable_features": [
+              "Resume parsing",
+              "Web research",
+              "GitHub scraping",
+              "Conditional routing"
+            ]
+          },
+          {
             "name": "airline_data_cleaning",
-            "description": "A data cleaning pipeline for Airline Data Cleaning.",
+            "description": "A data cleaning pipeline for airline data.",
             "technologies": [
               "Python",
               "FastAPI",
               "Uvicorn"
             ],
-            "purpose": "To clean and process airline data using a FastAPI application.",
+            "purpose": "To clean and process airline data efficiently.",
             "complexity": "Medium",
             "notable_features": [
-              "FastAPI setup",
-              "Virtual environment management",
-              "API documentation"
+              "Data cleaning pipeline",
+              "API integration"
             ]
           },
           {
@@ -626,6 +695,16 @@
             "twitter": null
           },
           "repositories": [
+            {
+              "name": "ai-recruiting-assistant",
+              "description": null,
+              "language": "Python",
+              "stars": "0",
+              "forks": "0",
+              "updated_at": "2025-05-14T15:37:01Z",
+              "html_url": "https://github.com/anchitna/ai-recruiting-assistant",
+              "readme": "AI Recruiting Assistant\nAn autonomous AI recruiting assistant built with LangGraph that analyzes resumes, performs web research (including GitHub profiles), and evaluates candidates against job descriptions.\n\ud83e\udde9 Overview\nThis application helps streamline the recruiting process by:\nParsing and analyzing candidate resumes\nGathering additional data from the web, including GitHub repositories\nComparing candidates' qualifications to job requirements\nProviding a structured assessment with recommendations\n\ud83c\udfd7\ufe0f Architecture\nThe application follows a LangGraph architecture with conditional routing:\n\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n                  \u2502   FastAPI     \u2502\n                  \u2502   Endpoint    \u2502\n                  \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n                          \u2502\n                          \u25bc\n\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502                  LangGraph Workflow                     \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502                         \u2502                               \u2502\n\u2502                         \u25bc                               \u2502\n\u2502                  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                        \u2502\n\u2502                  \u2502   Resume    \u2502                        \u2502\n\u2502                  \u2502   Parser    \u2502                        \u2502\n\u2502                  \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2518                        \u2502\n\u2502                         \u2502                               \u2502\n\u2502                         \u25bc                               \u2502\n\u2502                  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                        \u2502\n\u2502                  \u2502     Job     \u2502                        \u2502\n\u2502                  \u2502 Description \u2502                        \u2502\n\u2502                  \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2518                        \u2502\n\u2502                         \u2502                               \u2502\n\u2502                         \u25bc                               \u2502\n\u2502                  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                        \u2502\n\u2502     \u250c\u2500\u2500\u2500\u2500No GitHub\u2500\u2500\u2500\u2524   Check    \u2502                     \u2502\n\u2502     \u2502        Info    \u2502  GitHub    \u2502                     \u2502\n\u2502     \u2502                \u2502   Info     \u2502                     \u2502\n\u2502     \u2502                \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2518                     \u2502\n\u2502     \u2502                       \u2502                           \u2502\n\u2502     \u2502                       \u2502 GitHub Info Found         \u2502\n\u2502     \u2502                       \u25bc                           \u2502\n\u2502     \u2502                \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                    \u2502\n\u2502     \u2502                \u2502   GitHub    \u2502                    \u2502\n\u2502     \u2502                \u2502  Research   \u2502                    \u2502\n\u2502     \u2502                \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2518                    \u2502\n\u2502     \u2502                       \u2502                           \u2502\n\u2502     \u25bc                       \u25bc                           \u2502\n\u2502 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510      \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                    \u2502\n\u2502 \u2502     Web     \u2502\u25c0\u2500\u2500\u2500\u2500\u2500\u2502     Web     \u2502                    \u2502\n\u2502 \u2502  Research   \u2502      \u2502  Research   \u2502                    \u2502\n\u2502 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2518      \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518                    \u2502\n\u2502        \u2502                                                \u2502\n\u2502        \u25bc                                                \u2502\n\u2502 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                                        \u2502\n\u2502 \u2502   Profile    \u2502                                        \u2502\n\u2502 \u2502   Creation   \u2502                                        \u2502\n\u2502 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518                                        \u2502\n\u2502        \u2502                                                \u2502\n\u2502        \u25bc                                                \u2502\n\u2502 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                                        \u2502\n\u2502 \u2502   Compare    \u2502                                        \u2502\n\u2502 \u2502  Candidate   \u2502                                        \u2502\n\u2502 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518                                        \u2502\n\u2502        \u2502                                                \u2502\n\u2502        \u25bc                                                \u2502\n\u2502 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                                        \u2502\n\u2502 \u2502    Final     \u2502                                        \u2502\n\u2502 \u2502   Decision   \u2502                                        \u2502\n\u2502 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518                                        \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\nKey Components:\nState Management\n(\nstate.py\n): Defines the TypedDict structures for workflow state\nNodes\n(\nnodes.py\n): Implements business logic for each workflow step\nGraph\n(\ngraph.py\n): Orchestrates the workflow with LangGraph and conditional routing\nPrompts\n(\nprompts/\n): Contains prompt templates for various analysis tasks\nUtils\n(\nutils/\n): Provides utilities for document parsing and GitHub scraping\nAPI\n(\napp.py\n): Exposes a FastAPI endpoint for integration\n\ud83d\udee0\ufe0f Setup Instructions\nPrerequisites\nPython 3.9+\nRequired API keys:\nOpenAI API key (for GPT models)\nTavily API key (for web search)\nInstallation\nClone this repository:\ngit clone https://github.com/yourusername/ai-recruiting-assistant.git\ncd\nai-recruiting-assistant\nSet up a virtual environment:\npython -m venv venv\nsource\nvenv/bin/activate\n#\nOn Windows: venv\\Scripts\\activate\nInstall the dependencies:\npip install -r requirements.txt\nCreate a\n.env\nfile with your API keys:\ntouch .env\nAdd your API keys to the\n.env\nfile:\nO...[truncated]"
+            },
             {
               "name": "airline_data_cleaning",
               "description": "A data cleaning pipeline, currently working for Airline Data Cleaning.",
@@ -748,25 +827,41 @@
         ],
         "primary_technologies": [
           "FastAPI",
-          "Uvicorn",
-          "Virtual Environments"
+          "LangGraph",
+          "Uvicorn"
         ]
       },
       "key_projects": [
         {
+          "name": "ai-recruiting-assistant",
+          "description": "An autonomous AI recruiting assistant built with LangGraph that analyzes resumes, performs web research, and evaluates candidates against job descriptions.",
+          "technologies": [
+            "Python",
+            "FastAPI",
+            "LangGraph"
+          ],
+          "purpose": "To streamline the recruiting process by automating resume analysis and candidate evaluation.",
+          "complexity": "High",
+          "notable_features": [
+            "Resume parsing",
+            "Web research",
+            "GitHub scraping",
+            "Conditional routing"
+          ]
+        },
+        {
           "name": "airline_data_cleaning",
-          "description": "A data cleaning pipeline for Airline Data Cleaning.",
+          "description": "A data cleaning pipeline for airline data.",
           "technologies": [
             "Python",
             "FastAPI",
             "Uvicorn"
           ],
-          "purpose": "To clean and process airline data using a FastAPI application.",
+          "purpose": "To clean and process airline data efficiently.",
           "complexity": "Medium",
           "notable_features": [
-            "FastAPI setup",
-            "Virtual environment management",
-            "API documentation"
+            "Data cleaning pipeline",
+            "API integration"
           ]
         },
         {
@@ -805,29 +900,30 @@
           {
             "name": "Python",
             "proficiency": "Medium",
-            "evidence": "Used in multiple projects including 'airline_data_cleaning' and 'BlogSite'."
+            "evidence": "Multiple projects using Python, including web applications and data processing."
           },
           {
             "name": "Java",
-            "proficiency": "Medium",
-            "evidence": "Used in 'PlacementAutomation' project."
+            "proficiency": "Low",
+            "evidence": "Single project with basic implementation."
           },
           {
             "name": "Jupyter Notebook",
             "proficiency": "Low",
-            "evidence": "Used in 'ProjectsAndApplicationOfDataScience'."
+            "evidence": "Single project with basic data science applications."
           }
         ],
         "technical_strengths": [
-          "API development",
-          "Data cleaning"
+          "Web application development",
+          "Data processing",
+          "API integration"
         ],
         "areas_of_expertise": [
-          "FastAPI",
-          "Data Science"
+          "AI and automation",
+          "Data cleaning"
         ]
       },
-      "overall_assessment": "Anchit Narayan's GitHub profile shows a focus on Python and Java projects with an emphasis on data cleaning and API development. The activity level is low, with no stars or forks, indicating limited external engagement. The use of FastAPI and virtual environments suggests a good understanding of modern Python web frameworks, but there is limited evidence of advanced software engineering practices such as testing or CI/CD.",
+      "overall_assessment": "Anchit Narayan's GitHub profile shows a focus on Python-based projects, particularly in web application development and data processing. The projects demonstrate a good understanding of integrating APIs and using frameworks like FastAPI. However, the overall activity level is low, with limited engagement in terms of stars and forks, suggesting room for growth in community involvement and project visibility.",
       "raw_data": {
         "user_info": {
           "username": "anchitna",
@@ -839,6 +935,16 @@
           "twitter": null
         },
         "repositories": [
+          {
+            "name": "ai-recruiting-assistant",
+            "description": null,
+            "language": "Python",
+            "stars": "0",
+            "forks": "0",
+            "updated_at": "2025-05-14T15:37:01Z",
+            "html_url": "https://github.com/anchitna/ai-recruiting-assistant",
+            "readme": "AI Recruiting Assistant\nAn autonomous AI recruiting assistant built with LangGraph that analyzes resumes, performs web research (including GitHub profiles), and evaluates candidates against job descriptions.\n\ud83e\udde9 Overview\nThis application helps streamline the recruiting process by:\nParsing and analyzing candidate resumes\nGathering additional data from the web, including GitHub repositories\nComparing candidates' qualifications to job requirements\nProviding a structured assessment with recommendations\n\ud83c\udfd7\ufe0f Architecture\nThe application follows a LangGraph architecture with conditional routing:\n\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n                  \u2502   FastAPI     \u2502\n                  \u2502   Endpoint    \u2502\n                  \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n                          \u2502\n                          \u25bc\n\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502                  LangGraph Workflow                     \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502                         \u2502                               \u2502\n\u2502                         \u25bc                               \u2502\n\u2502                  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                        \u2502\n\u2502                  \u2502   Resume    \u2502                        \u2502\n\u2502                  \u2502   Parser    \u2502                        \u2502\n\u2502                  \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2518                        \u2502\n\u2502                         \u2502                               \u2502\n\u2502                         \u25bc                               \u2502\n\u2502                  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                        \u2502\n\u2502                  \u2502     Job     \u2502                        \u2502\n\u2502                  \u2502 Description \u2502                        \u2502\n\u2502                  \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2518                        \u2502\n\u2502                         \u2502                               \u2502\n\u2502                         \u25bc                               \u2502\n\u2502                  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                        \u2502\n\u2502     \u250c\u2500\u2500\u2500\u2500No GitHub\u2500\u2500\u2500\u2524   Check    \u2502                     \u2502\n\u2502     \u2502        Info    \u2502  GitHub    \u2502                     \u2502\n\u2502     \u2502                \u2502   Info     \u2502                     \u2502\n\u2502     \u2502                \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2518                     \u2502\n\u2502     \u2502                       \u2502                           \u2502\n\u2502     \u2502                       \u2502 GitHub Info Found         \u2502\n\u2502     \u2502                       \u25bc                           \u2502\n\u2502     \u2502                \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                    \u2502\n\u2502     \u2502                \u2502   GitHub    \u2502                    \u2502\n\u2502     \u2502                \u2502  Research   \u2502                    \u2502\n\u2502     \u2502                \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2518                    \u2502\n\u2502     \u2502                       \u2502                           \u2502\n\u2502     \u25bc                       \u25bc                           \u2502\n\u2502 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510      \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                    \u2502\n\u2502 \u2502     Web     \u2502\u25c0\u2500\u2500\u2500\u2500\u2500\u2502     Web     \u2502                    \u2502\n\u2502 \u2502  Research   \u2502      \u2502  Research   \u2502                    \u2502\n\u2502 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2518      \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518                    \u2502\n\u2502        \u2502                                                \u2502\n\u2502        \u25bc                                                \u2502\n\u2502 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                                        \u2502\n\u2502 \u2502   Profile    \u2502                                        \u2502\n\u2502 \u2502   Creation   \u2502                                        \u2502\n\u2502 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518                                        \u2502\n\u2502        \u2502                                                \u2502\n\u2502        \u25bc                                                \u2502\n\u2502 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                                        \u2502\n\u2502 \u2502   Compare    \u2502                                        \u2502\n\u2502 \u2502  Candidate   \u2502                                        \u2502\n\u2502 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518                                        \u2502\n\u2502        \u2502                                                \u2502\n\u2502        \u25bc                                                \u2502\n\u2502 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510                                        \u2502\n\u2502 \u2502    Final     \u2502                                        \u2502\n\u2502 \u2502   Decision   \u2502                                        \u2502\n\u2502 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518                                        \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\nKey Components:\nState Management\n(\nstate.py\n): Defines the TypedDict structures for workflow state\nNodes\n(\nnodes.py\n): Implements business logic for each workflow step\nGraph\n(\ngraph.py\n): Orchestrates the workflow with LangGraph and conditional routing\nPrompts\n(\nprompts/\n): Contains prompt templates for various analysis tasks\nUtils\n(\nutils/\n): Provides utilities for document parsing and GitHub scraping\nAPI\n(\napp.py\n): Exposes a FastAPI endpoint for integration\n\ud83d\udee0\ufe0f Setup Instructions\nPrerequisites\nPython 3.9+\nRequired API keys:\nOpenAI API key (for GPT models)\nTavily API key (for web search)\nInstallation\nClone this repository:\ngit clone https://github.com/yourusername/ai-recruiting-assistant.git\ncd\nai-recruiting-assistant\nSet up a virtual environment:\npython -m venv venv\nsource\nvenv/bin/activate\n#\nOn Windows: venv\\Scripts\\activate\nInstall the dependencies:\npip install -r requirements.txt\nCreate a\n.env\nfile with your API keys:\ntouch .env\nAdd your API keys to the\n.env\nfile:\nO...[truncated]"
+          },
           {
             "name": "airline_data_cleaning",
             "description": "A data cleaning pipeline, currently working for Airline Data Cleaning.",
@@ -886,81 +992,81 @@
       {
         "skill": "Python",
         "match_level": "High",
-        "details": "Anchit has extensive experience with Python, as evidenced by multiple projects and work experience."
+        "details": "The candidate has extensive experience with Python, demonstrated through multiple projects and work experience."
       },
       {
         "skill": "LangChain",
         "match_level": "High",
-        "details": "Anchit has worked with LangChain in his role at Raptor Supplies, developing AI and backend technologies."
+        "details": "The candidate has direct experience with LangChain, as evidenced by their work at Raptor Supplies and Bicycle AI."
       },
       {
         "skill": "LangGraph",
         "match_level": "High",
-        "details": "Anchit has designed and implemented workflows using LangGraph at Bicycle AI."
+        "details": "The candidate has implemented LangGraph-based workflows in their current role at Bicycle AI."
       },
       {
         "skill": "RAG systems",
         "match_level": "High",
-        "details": "Anchit developed a Retrieval Augmented Generation system at Raptor Supplies."
+        "details": "The candidate has developed RAG systems for the MRO industry at Raptor Supplies."
       },
       {
         "skill": "LLM-powered agents",
-        "match_level": "Medium",
-        "details": "Anchit has experience with LLM models and workflows, but specific experience with LLM-powered agents is not detailed."
+        "match_level": "High",
+        "details": "The candidate has experience creating workflows that handle multiple LLM model outputs in real time."
       },
       {
         "skill": "Full-stack development",
         "match_level": "High",
-        "details": "Anchit has full-stack development experience, particularly in his role at Raptor Supplies."
+        "details": "The candidate has full-stack development experience, particularly in backend technologies, as shown in their role at Raptor Supplies."
       },
       {
         "skill": "React",
-        "match_level": "Low",
-        "details": "React is mentioned in a project, but there is limited evidence of extensive experience."
+        "match_level": "Medium",
+        "details": "The candidate has some exposure to frontend technologies but React is not explicitly mentioned."
       },
       {
         "skill": "Cloud infrastructure",
-        "match_level": "Medium",
-        "details": "Anchit has experience with AWS and GCP, indicating some familiarity with cloud infrastructure."
+        "match_level": "High",
+        "details": "The candidate has experience with AWS and GCP, indicating familiarity with cloud infrastructure."
       },
       {
         "skill": "Vector databases",
         "match_level": "Medium",
-        "details": "Experience with Qdrant, a vector database, is mentioned in projects."
+        "details": "The candidate has experience with Qdrant, a vector database, but it is not a primary focus."
       },
       {
         "skill": "Fine-tuning LLMs",
-        "match_level": "None",
-        "details": "No specific experience with fine-tuning LLMs is mentioned."
+        "match_level": "Low",
+        "details": "There is no specific mention of fine-tuning LLMs in the candidate's profile."
       }
     ],
     "experience_matches": [
       {
-        "area": "AI and backend technologies",
+        "area": "AI and automation",
         "match_level": "High",
-        "details": "Anchit has significant experience in AI and backend technologies, particularly with Python and LangChain."
+        "details": "The candidate has significant experience in AI-powered solutions and automation, as demonstrated by their roles at Bicycle AI and Raptor Supplies."
       },
       {
         "area": "Full-stack development",
         "match_level": "High",
-        "details": "Anchit has worked as a full-stack engineer, handling both backend and frontend tasks."
+        "details": "The candidate has worked as a full-stack engineer, handling both backend and some frontend tasks."
       },
       {
         "area": "RAG systems",
         "match_level": "High",
-        "details": "Anchit has developed RAG systems for the MRO industry."
+        "details": "The candidate has developed RAG systems specifically for the MRO industry."
       },
       {
         "area": "LLM-powered agents",
-        "match_level": "Medium",
-        "details": "While Anchit has worked with LLM models, specific experience with LLM-powered agents is not detailed."
+        "match_level": "High",
+        "details": "The candidate has experience with LLM-powered agents, as shown in their current role."
       }
     ],
     "education_matches": [
       {
         "requirement": "Education requirement",
         "match_level": "High",
-        "details": "Anchit holds a Post Graduate Diploma in AI, ML & Leadership and a B.E. in Computer Science & Engineering, which are relevant to the role."
+        "details": "The candidate holds a Post Graduate Diploma in AI, ML & Leadership and a B.E. in Computer Science & Engineering, which are relevant to the job domain."
       }
     ],
     "overall_skill_match": "Strong",
@@ -969,11 +1075,11 @@
   },
   "final_decision": {
     "fit_score": "Strong Fit",
-    "reasoning": "Anchit Narayan demonstrates a strong alignment with the core skills required for the job, including Python, LangChain, LangGraph, and RAG systems. His experience in full-stack development and AI and backend technologies is extensive, particularly in roles at Bicycle AI and Raptor Supplies. While there is limited evidence of experience with React and fine-tuning LLMs, his proficiency in cloud infrastructure and vector databases compensates for these gaps. Anchit's educational background in AI, ML, and Computer Science further supports his qualifications for the role. The candidate's potential for growth in areas like LLM-powered agents and fine-tuning LLMs suggests he can quickly adapt and expand his skill set in the role.",
+    "reasoning": "Anchit Narayan demonstrates a strong alignment with the job requirements for the Full-stack AI Agent Engineer position. The candidate possesses high proficiency in core skills such as Python, LangChain, LangGraph, RAG systems, and LLM-powered agents, which are critical for the role. Anchit's experience in full-stack development, particularly in backend technologies, and familiarity with cloud infrastructure further strengthen their fit. While there is a medium match for React and vector databases, these are not critical gaps given the candidate's overall strong technical foundation and experience in AI and automation. The candidate's educational background in AI, ML, and Computer Science supports their technical expertise, and their work history shows a consistent focus on relevant technologies. Anchit's potential for growth is evident in their proactive project involvement and ability to handle complex workflows, making them a valuable addition to the team.",
     "recommendations": [
-      "Proceed with a final interview to assess cultural fit and discuss potential growth areas.",
-      "Consider providing training or mentorship in React and fine-tuning LLMs to address minor skill gaps.",
-      "Evaluate the candidate's interest in long-term growth within the company to ensure alignment with organizational goals."
+      "Proceed with the next steps in the hiring process, including a practical test assignment to further assess technical skills.",
+      "Conduct a final interview with the CTO to evaluate cultural fit and discuss potential contributions to the team.",
+      "Consider providing training or resources to enhance skills in React and vector databases if these become more critical in future projects."
     ]
   },
   "completed_nodes": [
