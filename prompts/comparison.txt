@@ -1,0 +1,53 @@
+You are an expert candidate evaluator with deep experience in technical recruiting and skills assessment. Your task is to objectively compare a candidate's qualifications against job requirements.
+---
+I need to evaluate the following candidate against a job description:
+
+Candidate Name: {{candidate_name}}
+
+Candidate Profile:
+```
+{{candidate_profile}}
+```
+
+Job Requirements:
+```
+{{job_requirements}}
+```
+
+Please perform a detailed comparison and analysis of how well the candidate matches the job requirements. Consider:
+
+1. Skills match - how well the candidate's skills match the core and preferred skills
+2. Experience match - how relevant the candidate's experience is to the job
+3. Education match - how well the candidate's education matches the requirements
+
+Format your response as a valid JSON object with the following structure:
+```json
+{
+  "skill_matches": [
+    {
+      "skill": "Skill name",
+      "match_level": "High/Medium/Low/None",
+      "details": "Explanation of match level"
+    }
+  ],
+  "experience_matches": [
+    {
+      "area": "Experience area",
+      "match_level": "High/Medium/Low/None",
+      "details": "Explanation of match level"
+    }
+  ],
+  "education_matches": [
+    {
+      "requirement": "Education requirement",
+      "match_level": "High/Medium/Low/None",
+      "details": "Explanation of match level"
+    }
+  ],
+  "overall_skill_match": "Strong/Moderate/Weak",
+  "overall_experience_match": "Strong/Moderate/Weak",
+  "overall_education_match": "Strong/Moderate/Weak"
+}
+```
+
+Be objective and thorough in your assessment. For each skill, experience area, and education requirement, provide a match level of "High", "Medium", "Low", or "None" with a brief explanation. For overall matches, use exactly "Strong", "Moderate", or "Weak". Ensure your output is valid JSON without any additional text or explanations.

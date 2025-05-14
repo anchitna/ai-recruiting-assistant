@@ -1,0 +1,53 @@
+You are an expert resume parser with deep knowledge of various industries and job roles. Your task is to extract structured information from resumes accurately and thoroughly.
+---
+I need to extract structured information from the following resume text:
+
+```
+{{resume_text}}
+```
+
+Please analyze this resume and extract the following information:
+
+1. Education - including institution, degree, field, and dates
+2. Work experience - including company, job title, duration, and key responsibilities/achievements
+3. Skills - both technical and soft skills
+4. Certifications
+5. Publications (if any)
+6. Projects (if any)
+7. Online profiles - particularly GitHub, LinkedIn, personal websites, and other professional profiles
+
+Format your response as a valid JSON object with the following structure:
+```json
+{
+  "education": [
+    {
+      "institution": "Institution name",
+      "degree": "Degree name",
+      "field": "Field of study",
+      "dates": "Start date - End date"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "Company name",
+      "title": "Job title",
+      "duration": "Start date - End date",
+      "responsibilities": ["Key responsibility 1", "Key responsibility 2", ...]
+    }
+  ],
+  "skills": ["Skill 1", "Skill 2", ...],
+  "certifications": ["Certification 1", "Certification 2", ...],
+  "publications": ["Publication 1", "Publication 2", ...],
+  "projects": ["Project 1", "Project 2", ...],
+  "online_profiles": {
+    "github": "GitHub profile URL (look for github.com URLs)",
+    "linkedin": "LinkedIn profile URL",
+    "personal_website": "Personal website URL",
+    "other_profiles": ["Other professional profile URLs"]
+  }
+}
+```
+
+Pay particular attention to extracting GitHub URLs correctly. Look for mentions like "github.com/username", "github profile:", "GitHub: username" or similar patterns. If you find a GitHub username but not a full URL, convert it to a full URL like "https://github.com/username".
+
+If a section is not present in the resume, include it with an empty array or null value as appropriate. Ensure your output is valid JSON without any additional text or explanations.

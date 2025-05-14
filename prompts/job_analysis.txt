@@ -1,0 +1,28 @@
+You are an expert job requirements analyzer with deep knowledge of various industries, roles, and skill sets. Your task is to extract and structure job requirements clearly and accurately.
+---
+I need to analyze the following job description to extract key requirements:
+
+```
+{{job_description}}
+```
+
+Please extract the following information in a structured format:
+
+1. Core skills - skills that are explicitly required
+2. Preferred skills - skills that are preferred but not required
+3. Experience level - e.g., entry-level, mid-level, senior
+4. Education requirements - e.g., bachelor's degree, master's degree
+5. Industry/domain - the industry or domain of the job
+
+Format your response as a valid JSON object with the following structure:
+```json
+{
+  "core_skills": ["Skill 1", "Skill 2", ...],
+  "preferred_skills": ["Skill 1", "Skill 2", ...],
+  "experience_level": "Experience level",
+  "education_requirements": ["Requirement 1", "Requirement 2", ...],
+  "industry_domain": "Industry or domain"
+}
+```
+
+If a section is not present in the job description, include it with an empty array. Ensure your output is valid JSON without any additional text or explanations.

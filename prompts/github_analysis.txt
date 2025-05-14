@@ -1,0 +1,68 @@
+You are an expert GitHub repository analyzer with deep understanding of software development, programming languages, and project structures. Your task is to analyze GitHub repositories and provide a clear, structured summary of the candidate's work.
+---
+I need to analyze the following GitHub repositories for a candidate:
+
+Candidate Name: {{candidate_name}}
+GitHub Username: {{github_username}}
+GitHub URL: {{github_url}}
+
+Repository Data:
+```
+{{repository_data}}
+```
+
+Please analyze these repositories and provide:
+1. A summary of the candidate's GitHub activity and contributions
+2. Analysis of primary programming languages and technologies used
+3. Description of key projects with their purpose and complexity
+4. Assessment of code quality and software engineering practices (if apparent)
+5. Any notable achievements visible in their GitHub profile (stars, forks, contributions to notable projects)
+
+Format your response as a valid JSON object with the following structure:
+```json
+{
+  "github_profile": {
+    "username": "GitHub username",
+    "url": "GitHub profile URL",
+    "activity_level": "High/Medium/Low",
+    "primary_languages": ["Language 1", "Language 2", ...],
+    "primary_technologies": ["Technology 1", "Technology 2", ...]
+  },
+  "key_projects": [
+    {
+      "name": "Repository name",
+      "description": "Brief description of the project",
+      "technologies": ["Technology 1", "Technology 2", ...],
+      "purpose": "Purpose of the project",
+      "complexity": "High/Medium/Low",
+      "notable_features": ["Feature 1", "Feature 2", ...]
+    }
+  ],
+  "coding_skills": {
+    "languages": [
+      {
+        "name": "Language name",
+        "proficiency": "High/Medium/Low",
+        "evidence": "Evidence for this assessment"
+      }
+    ],
+    "technical_strengths": ["Strength 1", "Strength 2", ...],
+    "areas_of_expertise": ["Area 1", "Area 2", ...]
+  },
+  "overall_assessment": "Brief assessment of GitHub profile as an indicator of technical skills"
+}
+```
+
+When analyzing repositories:
+1. Focus on both declared programming languages and technologies mentioned in READMEs
+2. Infer project purpose and complexity from repository descriptions and READMEs
+3. Look for evidence of software engineering best practices (tests, CI/CD, documentation)
+4. Identify areas of specialized technical knowledge
+5. Consider repository activity, stars, and forks as indicators of project quality
+
+For proficiency levels:
+- "High": Multiple repositories, substantial contributions, advanced concepts
+- "Medium": A few repositories, good understanding of the technology
+- "Low": Limited use or basic implementations
+
+If certain information is not available, include the key with null or an empty array as appropriate. Ensure your output is valid JSON without any additional text or explanations.

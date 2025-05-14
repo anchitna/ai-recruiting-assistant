@@ -1,0 +1,11 @@
+#Virtual Env
+venv/
+
+#PyCache
+__pycache__/
+
+#Environment Variables
+.env
+
+#VSCode
+.vscode/

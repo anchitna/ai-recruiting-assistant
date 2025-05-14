@@ -1,0 +1,988 @@
+{
+  "candidate_name": "Anchit Narayan",
+  "resume_file_path": "examples/Anchit_Narayan_Resume_Github.pdf",
+  "job_description_path": "examples/DoubleO_Job_Description.docx",
+  "github_info": {
+    "url": "https://github.com/anchitna",
+    "username": "anchitna"
+  },
+  "github_research_data": {
+    "github_profile": {
+      "username": "anchitna",
+      "url": "https://github.com/anchitna",
+      "activity_level": "Low",
+      "primary_languages": [
+        "Python",
+        "Java",
+        "Jupyter Notebook"
+      ],
+      "primary_technologies": [
+        "FastAPI",
+        "Uvicorn",
+        "Virtual Environments"
+      ]
+    },
+    "key_projects": [
+      {
+        "name": "airline_data_cleaning",
+        "description": "A data cleaning pipeline for Airline Data Cleaning.",
+        "technologies": [
+          "Python",
+          "FastAPI",
+          "Uvicorn"
+        ],
+        "purpose": "To clean and process airline data using a FastAPI application.",
+        "complexity": "Medium",
+        "notable_features": [
+          "FastAPI setup",
+          "Virtual environment management",
+          "API documentation"
+        ]
+      },
+      {
+        "name": "ProjectsAndApplicationOfDataScience",
+        "description": "A collection of data science projects.",
+        "technologies": [
+          "Jupyter Notebook"
+        ],
+        "purpose": "To explore and apply data science techniques.",
+        "complexity": "Low",
+        "notable_features": []
+      },
+      {
+        "name": "PlacementAutomation",
+        "description": "A system for universities to handle placements.",
+        "technologies": [
+          "Java"
+        ],
+        "purpose": "To automate the placement process in universities.",
+        "complexity": "Medium",
+        "notable_features": []
+      },
+      {
+        "name": "BlogSite",
+        "description": "A blogging website.",
+        "technologies": [
+          "Python"
+        ],
+        "purpose": "To provide a platform for blogging.",
+        "complexity": "Low",
+        "notable_features": []
+      }
+    ],
+    "coding_skills": {
+      "languages": [
+        {
+          "name": "Python",
+          "proficiency": "Medium",
+          "evidence": "Used in multiple projects including 'airline_data_cleaning' and 'BlogSite'."
+        },
+        {
+          "name": "Java",
+          "proficiency": "Medium",
+          "evidence": "Used in 'PlacementAutomation' project."
+        },
+        {
+          "name": "Jupyter Notebook",
+          "proficiency": "Low",
+          "evidence": "Used in 'ProjectsAndApplicationOfDataScience'."
+        }
+      ],
+      "technical_strengths": [
+        "API development",
+        "Data cleaning"
+      ],
+      "areas_of_expertise": [
+        "FastAPI",
+        "Data Science"
+      ]
+    },
+    "overall_assessment": "Anchit Narayan's GitHub profile shows a focus on Python and Java projects with an emphasis on data cleaning and API development. The activity level is low, with no stars or forks, indicating limited external engagement. The use of FastAPI and virtual environments suggests a good understanding of modern Python web frameworks, but there is limited evidence of advanced software engineering practices such as testing or CI/CD.",
+    "raw_data": {
+      "user_info": {
+        "username": "anchitna",
+        "name": "Anchit Narayan",
+        "bio": null,
+        "location": null,
+        "company": null,
+        "website": null,
+        "twitter": null
+      },
+      "repositories": [
+        {
+          "name": "airline_data_cleaning",
+          "description": "A data cleaning pipeline, currently working for Airline Data Cleaning.",
+          "language": "Python",
+          "stars": "0",
+          "forks": "0",
+          "updated_at": "2024-11-15T15:20:39Z",
+          "html_url": "https://github.com/anchitna/airline_data_cleaning",
+          "readme": "Installation Guide\nFollow these steps to set up the project locally\nClone the Repository: (\nhttps://github.com/anchitna/airline_data_cleaning.git\n)\ncd airline_data_cleaning\nCreate a Virtual Environment\nIt's recommended to use a virtual environment to manage dependencies.\nbash\npython3 -m venv venv\nActivate the virtual environment:\nOn Unix or MacOS:\nsource venv/bin/activate\nOn Windows:\nvenv\\Scripts\\activate\nInstall Dependencies\npip install --upgrade pip\npip install -r requirements.txt\nEnvironment File\nvi .env\nNeed to set up keys to access the LLM and PandasAI.\nOPENAI_API_KEY\nPANDASAI_API_KEY\nQuick Start\nStart the FastAPI application using Uvicorn.\nuvicorn main:app --reload\nmain: The Python file where your FastAPI app instance is located (e.g., main.py).\napp: The FastAPI instance (e.g., app = FastAPI()).\n--reload: Enables auto-reloading on code changes (useful during development).\nAfter running the command, you should see output similar to:\nINFO:     Uvicorn running on\nhttp://127.0.0.1:8000\n(Press CTRL+C to quit)\nINFO:     Started reloader process [28724] using statreload\nINFO:     Started server process [28726]\nINFO:     Waiting for application startup.\nINFO:     Application startup complete.\nUsage\nAccessing the API\nOnce the server is running, you can interact with the API endpoints.\nBase URL:\nhttp://127.0.0.1:8000\nInteractive API Docs\nFastAPI provides interactive documentation out of the box."
+        },
+        {
+          "name": "ProjectsAndApplicationOfDataScience",
+          "description": null,
+          "language": "Jupyter Notebook",
+          "stars": "0",
+          "forks": "0",
+          "updated_at": "2023-02-04T13:11:09Z",
+          "html_url": "https://github.com/anchitna/ProjectsAndApplicationOfDataScience",
+          "readme": "ProjectsAndApplicationOfDataScience"
+        },
+        {
+          "name": "PlacementAutomation",
+          "description": "A system for University to handle Placements",
+          "language": "Java",
+          "stars": "0",
+          "forks": "0",
+          "updated_at": "2023-01-09T09:50:17Z",
+          "html_url": "https://github.com/anchitna/PlacementAutomation"
+        },
+        {
+          "name": "BlogSite",
+          "description": "A blogging website",
+          "language": "Python",
+          "stars": "0",
+          "forks": "0",
+          "updated_at": "2018-05-01T06:09:49Z",
+          "html_url": "https://github.com/anchitna/BlogSite"
+        }
+      ]
+    }
+  },
+  "resume_data": {
+    "education": [
+      {
+        "institution": "Plaksha University",
+        "degree": "Post Graduate Diploma",
+        "field": "AI, ML & Leadership",
+        "dates": "08/2023"
+      },
+      {
+        "institution": "Chandigarh University",
+        "degree": "B.E.",
+        "field": "Computer Science & Engineering",
+        "dates": "07/2019"
+      }
+    ],
+    "work_experience": [
+      {
+        "company": "Bicycle AI",
+        "title": "Software Engineer - AI Agents",
+        "duration": "01/2025 - Current",
+        "responsibilities": [
+          "Designed and implemented a LangGraph-based workflow that generates personalized sales content tailored to target companies.",
+          "Developed a report and data story generator tailored to company-specific requirements.",
+          "Created a unified workflow to handle multiple LLM model and stream outputs in real time."
+        ]
+      },
+      {
+        "company": "Raptor Supplies Limited",
+        "title": "Full Stack Engineer",
+        "duration": "10/2023 - 01/2025",
+        "responsibilities": [
+          "Specialized in AI and backend technologies using Python, FastAPI, Elastic Search, Postgres and LangChain.",
+          "Developed a Product Search Engine for the organization using Elastic Search.",
+          "Worked on an advanced Retrieval Augmented Generation (RAG) system designed for the MRO industry."
+        ]
+      },
+      {
+        "company": "JM Financial (blinkX)",
+        "title": "Data Science Intern",
+        "duration": "03/2023 - 05/2023",
+        "responsibilities": [
+          "Developed a Text Summarization workflow to summarize a 200-page financial document.",
+          "Created a workflow to create fragments and word embeddings of more than 1000 documents."
+        ]
+      },
+      {
+        "company": "FICO",
+        "title": "Software Engineer",
+        "duration": "07/2019 - 06/2022",
+        "responsibilities": [
+          "Worked on Angular, TypeScript and JavaScript to develop a Rapid Action Development Tool.",
+          "Created a workflow to create fragments and word embeddings of more than 1000 documents.",
+          "Worked on Cloudify to automate deployment notifications."
+        ]
+      }
+    ],
+    "skills": [
+      "Python",
+      "C/C++",
+      "JavaScript",
+      "SQL",
+      "FastAPI",
+      "Uvicorn",
+      "Nginx",
+      "AWS (EC2, RDS)",
+      "GCP",
+      "Git",
+      "LangChain",
+      "LangGraph",
+      "Problem Solving",
+      "Data Structures & Algorithms",
+      "Object Oriented Programming",
+      "Elastic Search",
+      "Redis",
+      "PostgreSQL",
+      "MySQL",
+      "Qdrant"
+    ],
+    "certifications": [],
+    "publications": [],
+    "projects": [
+      "Sales Microsite \u2013 Bicycle AI",
+      "MRO Chat Engine Development \u2013 Raptor Supplies",
+      "Document RAG Pipeline Development \u2013 Raptor Supplies",
+      "MRO Product Search \u2013 Raptor Supplies"
+    ],
+    "online_profiles": {
+      "github": "https://github.com/anchitna",
+      "linkedin": "https://linkedin.com/in/anchitna/",
+      "personal_website": null,
+      "other_profiles": []
+    },
+    "raw_text": "ANCHIT\nNARAYAN\nanchit.na@gmail.com\n+91 9855816826\nNew Delhi India\nlinkedin.com/in/anchitna/\nhttps://github.com/anchitna/Experienced with creating robust software applications tailored to\nclient needs. I specialize in building AI-powered solutions using\nPython, FastAPI, Elasticsearch, LangChain and LangGraph. Strong\nunderstanding of software development lifecycle and agile\nmethodologies.PROFESSIONAL SUMMARY\nSKILLS\nProgramming: Python, C/C++,\nJavaScript, SQL.\u2022\nFrameworks: FastAPI, Uvicorn,\nNginx, AWS(EC2, RDS), GCP , Git,\nLangChain, LangGraph.\u2022\nSkills: Problem Solving, Data\nStructures & Algorithms, Object\nOriented Programming.\u2022\nDatabases: Elastic Search, Redis,\nPostgreSQL, MySQL, Qdrant.\u2022\nPlaksha University\nMohali, India \u202208/2023\nPost Graduate Diploma :AI, ML &\nLeadership\nSelected as one of 60 students from\na pool of over 1,000 applicants\nChandigarh University\nMohali, India \u202207/2019\nB.E.:Computer Science &\nEngineering\nGraduated with an Honours in Big\nData EngineeringEDUCATIONBicycle AI  - Software Engineer - AI Agents\nHyderabad, India \u202201/2025  - Current\nRaptor Supplies Limited  - Full Stack Engineer\nNew Delhi, India \u202210/2023  - 01/2025WORK HISTORY\nDesigned and implemented a LangGraph-based workflow that\ngenerates personalized sales content tailored to target\ncompanies, based on their domain input. The system automates\ncontent creation and integrates with a UI component to\ndynamically build custom websites for high-impact, company-\nspecific sales pitches.\u2022\nDeveloped a report and data story generator tailored to\ncompany-specific requirements, enabling dynamic content\ncreation from internal data. Integrated a secure code execution\nenvironment to allow custom script execution by company users.\u2022\nCreated a unified workflow to handle multiple LLM model and\nstream outputs in real time, enabling the UI component to\ndisplay responses continuously for a seamless user experience.\u2022\nFull Stack Engineer at Raptor Supplies, specializing in AI and\nbackend technologies using Python, FastAPI, Elastic Search,\nPostgres and LangChain.\u2022\nDeveloped a Product Search Engine for the organization using\nElastic Search, initially exploring both semantic and lexical\nsearch methods before opting for a hybrid lexical search\napproach. Achieved a query time of 0.4 seconds in Elastic Search\nfor improved search performance.\u2022\nWorked on an advanced Retrieval Augmented Generation (RAG)\nsystem designed for the MRO (Maintenance, Repair, and\nOperations) industry. This system utilizes custom models and a\nprompt-based approach for intent classification and entity\nrecognition, and it integrates with a database via Elasticsearch.\nThe entire setup is hosted on Amazon EC2 with a FastAPI\napplication and Nginx serving as the load balancer.\u2022\nThe project aims to create a ChatGPT-like engine specifically\ntailored for the MRO sector, with various components that can\nalso function independently.\u2022\n\nJM Financial (blinkX)  - Data Science Intern\nMumbai, India \u202203/2023  - 05/2023\nFICO - Software Engineer\nBengaluru, India \u202207/2019  - 06/2022Technical Skills: Python, FastAPI, Uvicorn, AWS, OpenAI, Git,\nLangchain, Postgres, Shell, Nginx, EC2.\u2022\nDeveloped a Text Summarization workflow to summarize a\n200-page financial document in 500, 1000 and 5000 words each.\u2022\nCreated a workflow to create fragments and word embeddings of\nmore than 1000 documents of around 200 pages each.\u2022\nWorked on creating hyper-personalized nudge and\nrecommending based on user stock preference and market.\u2022\nTechnical Skills: Python, GCP , Pandas, scikit-learn, OpenAI,\nNumpy.\u2022\nWorked on Angular, TypeScript and JavaScript to develop a Rapid\nAction Development Tool.\u2022\nCreated a workflow to create fragments and word embeddings of\nmore than 1000 documents of around 200 pages each.\u2022\nWorked on Cloudify (an orchestration tool) to automate\ndeployment notifications. Developed a shell system which\nconnects with the database and automatically informs users\nabout the status of their deployments.\u2022\nWorked on Jenkins to automate and schedule manual tasks.\u2022\nJoined as an intern in January 2019 for 6 months and\nsuccessfully transitioned to a full-time position. Developed an\nAnsible Plugin to automate the workflow, including the\ninstallation of Ansible on the VM and execution of playbooks with\nvarious inputs across multiple nodes.\u2022\nTechnical Skills: Javascript, Typescript, Java, Ansible, Cloudify,\nScripting.\u2022\nEnglish: Professional proficiency Hindi: Native proficiencyLANGUAGES\nPROJECTS\nSales Microsite  \u2013 Bicycle AI\nDeveloped a LangGraph-based workflow that generates\npersonalized sales content from a target company's domain,\nhelping the sales team craft tailored value propositions. The\ngenerated content is streamed to a UI component to build\ndynamic microsites for personalized outbound sales campaigns.\nTechnologies: LangGraph, Claude, OpenAI, Python\u2022\nMRO Chat Engine Development  \u2013 Raptor Supplies\nDesigned a ChatGPT-like engine for the MRO industry using a\nmodular RAG architecture with dedicated components for intent\nclassification, entity recognition, and Elasticsearch-backed\nretrieval. Experimented with agentic models (CrewAI, OpenAI\nAssistants) for early-stage automation, later optimizing with a\ncustom workflow.\nTechnologies: FastAPI, React, Qdrant, LangChain, OpenAI,\nHugging Face, Python\u2022\nDocument RAG Pipeline Development  \u2013 Raptor Supplies\nBuilt a document RAG pipeline using PDFMiner for text\nextraction and image conversion from PDFs, leveraging OpenAI\u2022\nand Gemini for image analysis and table extraction.\nImplemented chunking and Qdrant-based embedding search to\nenhance document-query performance.\nTechnologies: PDFMiner, OpenAI, Gemini, Qdrant\nMRO Product Search  \u2013 Raptor Supplies\nDeveloped a lexical search engine for MRO products using\nElasticsearch, enabling efficient and accurate product retrieval\nfrom large catalogs.\nTechnologies: Elasticsearch\u2022\nACHIEVEMENTS\n2020 Leadership, Led a team of interns, providing training on\ndesign principles and project-specific technologies.\u2022\n2019 Spot Award, Awarded by spot award(recognition for work)\nin consecutive months.\u2022\n2014 School Football Team Captain, Captained football team in\nClass XIIth.\u2022"
+  },
+  "job_requirements": {
+    "core_skills": [
+      "Python",
+      "LangChain",
+      "LangGraph",
+      "RAG systems",
+      "LLM-powered agents",
+      "Full-stack development"
+    ],
+    "preferred_skills": [
+      "React",
+      "Cloud infrastructure",
+      "Vector databases",
+      "Fine-tuning LLMs"
+    ],
+    "experience_level": "Mid-level",
+    "education_requirements": [],
+    "industry_domain": "Engineering, Web Development, Programming",
+    "raw_text": "Engineering, Web Development, Programming \u00b7 San Francisco Bay Area, CA \u00b7 Fully Remote\nFull-stack AI Agent Engineer (LangChain) at DoubleO.ai\nAPPLY NOW\nFull-stack AI Agent Engineer (LangChain) at DoubleO.ai\nLocation: Remote (Preference for India; open to South America & Europe time zones, flexible working hours)\nType: Full-time\nDoubleO exists to give non-technical people the superpowers of elite AI engineers. Born from years of experience building award-winning AI tools for product teams, we\u2019ve developed a powerful platform that allows anyone to build intelligent automations \u2014 no coding required.\nFounded by leaders from Meta, Rippling, and PlayStation, and backed by top Silicon Valley investors, we\u2019re an engineering-led company pushing the boundaries of what AI can do in real business workflows.\nWe\u2019re looking for a Full Stack AI Engineer to join our tightly-knit AI team. You\u2019ll build internal tools and customer-facing AI agents end-to-end \u2014 from back-end logic to UI, from prompt design to LangChain flows.\nYou\u2019ll be part of a team where everyone is an AI engineer. We don\u2019t silo frontend/backend or infra/data. Instead, we move fast, write 50% of our code with AI tools, and ship useful agents that save users real hours every day.\nWhat You\u2019ll Do\nBuild full-stack AI applications using Python, LangChain, and LangGraph;\nWork on both internal workflows and external, user-facing agent tools;\nDevelop and deploy RAG systems and LLM-powered agents;\nOwn features end-to-end \u2014 from problem scoping and prompt design to database modeling and UI;\nCollaborate with a small, senior team to prototype quickly and ship constantly;\nLeverage AI tools to move faster and write better code.\nWho You Are\n5\u20136 years of total software engineering experience, including full-stack development;\nHands-on with AI tools: comfortable building with LLMs, LangChain, and RAG;\nHands-on experience. You still write and ship code daily. You\u2019re curious, fast, and obsessed with learning;\nStrong Python skills, with bonus points for exposure to React or similar front-end tools;\nHave 2-3 years of LangChain experience;\nFamiliar with building intelligent workflows or automations, not just CRUD apps;\nBonus: experience with cloud infra, vector DBs, or fine-tuning LLMs.\nWhat we offer\nFull-time job. Please note that we won\u2019t consider candidates planning to combine this job with another one.\nRemote work. You may be located in almost any country, just need a good Internet connection, a computer to work from, and the opportunity to adjust your working schedule for the team.\nWork with some of the brightest minds in AI from companies like Meta and Rippling.\nJoin an early team with a massive impact on product and culture.\nBuild things that people use immediately, not in quarters.\nSalary will be discussed during the interview. Paid in USD.\nApplication deadline: ASAP.\nPlease note that the later you apply - the more intensive your selection process will be, for example, you will have less time for the test assignment, etc.\nFill in the application form - attach your CV and Github profile;\nHave a Zoom interview with Hire5 Recruiter;\nComplete a practical test assignment;\nHave a Zoom interview with the CTO;\nHave a Zoom interview with the Middle Engineer from the team;\nHave a Zoom interview with the CEO;\nGet hired!\nDepartment\nEngineering, Web Development, Programming\nRemote status\nFully Remote"
+  },
+  "web_research_data": {
+    "github_info": {
+      "username": "anchitna",
+      "url": "https://github.com/anchitna",
+      "primary_languages": [
+        "Python",
+        "Java",
+        "Jupyter Notebook"
+      ],
+      "key_projects": [
+        {
+          "name": "airline_data_cleaning",
+          "description": "A data cleaning pipeline for Airline Data Cleaning.",
+          "technologies": [
+            "Python",
+            "FastAPI",
+            "Uvicorn"
+          ],
+          "purpose": "To clean and process airline data using a FastAPI application.",
+          "complexity": "Medium",
+          "notable_features": [
+            "FastAPI setup",
+            "Virtual environment management",
+            "API documentation"
+          ]
+        },
+        {
+          "name": "ProjectsAndApplicationOfDataScience",
+          "description": "A collection of data science projects.",
+          "technologies": [
+            "Jupyter Notebook"
+          ],
+          "purpose": "To explore and apply data science techniques.",
+          "complexity": "Low",
+          "notable_features": []
+        },
+        {
+          "name": "PlacementAutomation",
+          "description": "A system for universities to handle placements.",
+          "technologies": [
+            "Java"
+          ],
+          "purpose": "To automate the placement process in universities.",
+          "complexity": "Medium",
+          "notable_features": []
+        },
+        {
+          "name": "BlogSite",
+          "description": "A blogging website.",
+          "technologies": [
+            "Python"
+          ],
+          "purpose": "To provide a platform for blogging.",
+          "complexity": "Low",
+          "notable_features": []
+        }
+      ]
+    },
+    "blog_posts": [],
+    "conference_appearances": [],
+    "news_mentions": [],
+    "social_profiles": {
+      "linkedin": "https://in.linkedin.com/in/anchitna",
+      "twitter": "",
+      "other": ""
+    },
+    "raw_data": {
+      "github": {
+        "user_info": {
+          "username": "anchitna",
+          "name": "Anchit Narayan",
+          "bio": null,
+          "location": null,
+          "company": null,
+          "website": null,
+          "twitter": null
+        },
+        "repositories": [
+          {
+            "name": "airline_data_cleaning",
+            "description": "A data cleaning pipeline, currently working for Airline Data Cleaning.",
+            "language": "Python",
+            "stars": "0",
+            "forks": "0",
+            "updated_at": "2024-11-15T15:20:39Z",
+            "html_url": "https://github.com/anchitna/airline_data_cleaning",
+            "readme": "Installation Guide\nFollow these steps to set up the project locally\nClone the Repository: (\nhttps://github.com/anchitna/airline_data_cleaning.git\n)\ncd airline_data_cleaning\nCreate a Virtual Environment\nIt's recommended to use a virtual environment to manage dependencies.\nbash\npython3 -m venv venv\nActivate the virtual environment:\nOn Unix or MacOS:\nsource venv/bin/activate\nOn Windows:\nvenv\\Scripts\\activate\nInstall Dependencies\npip install --upgrade pip\npip install -r requirements.txt\nEnvironment File\nvi .env\nNeed to set up keys to access the LLM and PandasAI.\nOPENAI_API_KEY\nPANDASAI_API_KEY\nQuick Start\nStart the FastAPI application using Uvicorn.\nuvicorn main:app --reload\nmain: The Python file where your FastAPI app instance is located (e.g., main.py).\napp: The FastAPI instance (e.g., app = FastAPI()).\n--reload: Enables auto-reloading on code changes (useful during development).\nAfter running the command, you should see output similar to:\nINFO:     Uvicorn running on\nhttp://127.0.0.1:8000\n(Press CTRL+C to quit)\nINFO:     Started reloader process [28724] using statreload\nINFO:     Started server process [28726]\nINFO:     Waiting for application startup.\nINFO:     Application startup complete.\nUsage\nAccessing the API\nOnce the server is running, you can interact with the API endpoints.\nBase URL:\nhttp://127.0.0.1:8000\nInteractive API Docs\nFastAPI provides interactive documentation out of the box."
+          },
+          {
+            "name": "ProjectsAndApplicationOfDataScience",
+            "description": null,
+            "language": "Jupyter Notebook",
+            "stars": "0",
+            "forks": "0",
+            "updated_at": "2023-02-04T13:11:09Z",
+            "html_url": "https://github.com/anchitna/ProjectsAndApplicationOfDataScience",
+            "readme": "ProjectsAndApplicationOfDataScience"
+          },
+          {
+            "name": "PlacementAutomation",
+            "description": "A system for University to handle Placements",
+            "language": "Java",
+            "stars": "0",
+            "forks": "0",
+            "updated_at": "2023-01-09T09:50:17Z",
+            "html_url": "https://github.com/anchitna/PlacementAutomation"
+          },
+          {
+            "name": "BlogSite",
+            "description": "A blogging website",
+            "language": "Python",
+            "stars": "0",
+            "forks": "0",
+            "updated_at": "2018-05-01T06:09:49Z",
+            "html_url": "https://github.com/anchitna/BlogSite"
+          }
+        ]
+      },
+      "search_results": [
+        {
+          "title": "Anchit | Working at raptor supplies limited - Weekday",
+          "url": "https://www.weekday.works/people/anchit-narayan-anchitna",
+          "content": "any team he works with. In summary, Anchit Narayan is a talented software engineer with a strong background in Big Data and Analytics. He has gained valuable experience in software development and has a diverse set of technical skills that make him a valuable addition to any team. Anchit is a dedicated worker who is always looking to improve his skills and collaborate with his colleagues to achieve project goals. [...] Anchit Narayan is a skilled software engineer with 3.86 years of experience in the industry. Currently working at FICO, he has gained expertise in various programming languages such as Python, JavaScript, and C. Anchit has a strong background in Big Data and Analytics, having pursued a Bachelor's degree in Computer Science with Honours in this field from Chandigarh University. Anchit's professional journey began as a Software Engineer Intern at FICO, where he gained hands-on experience in [...] plaksha university\nPost Graduate Diploma in AI, ML and Leadership\n2022 - 2023\n\nchandigarh university cu\nBachelor of Engineering\n2015 - 2019\nFrequently asked questions\nWhat company does Anchit Narayan work for?\n\nAnchit Narayan works for raptor supplies limited\nWhat is Anchit Narayan role in their workplace?\n\nAnchit Narayan's role in their workplace is Full Stack Engineer\nWhat is Anchit Narayan's tenure in their workplace?",
+          "score": 0.6708892
+        },
+        {
+          "title": "Anchit Narayan - Software Engineer - AI Agents - Bicycle AI - LinkedIn",
+          "url": "https://in.linkedin.com/in/anchitna",
+          "content": "Developed a Product Search Engine for Raptor Supplies using Elastic Search, initially exploring both semantic and lexical search methods before opting for a hybrid lexical search approach.\n\nAchieved a query time of 0.4 seconds in Elastic Search for improved search performance. [...] Data Science Intern at blinkX (https://www.linkedin.com/company/getblinkx/)\nMar 2023 - May 2023\nMumbai, Maharashtra, India\n\nSoftware Engineer at FICO (https://www.linkedin.com/company/fico/)\nJul 2019 - Jul 2022\nBengaluru, Karnataka, India\n\nSoftware Engineer Intern at FICO (https://www.linkedin.com/company/fico/)\nJan 2019 - Jun 2019\nBengaluru, Karnataka, India [...] Full Stack Engineer at Raptor Supplies Limited (https://www.linkedin.com/company/raptor-supplies/)\nOct 2023 - Jan 2025\nNew Delhi, Delhi, India\nFull Stack Engineer at Raptor Supplies, specializing in backend technologies using Python.\n\nDesigned and implemented a PostgreSQL database capable of handling over 10 million records efficiently.",
+          "score": 0.57723385
+        },
+        {
+          "title": "Ankit Narayan - Lead Marketing Content & Production - Wiingy",
+          "url": "https://in.linkedin.com/in/ankitxnarayan",
+          "content": "#contentproduction #elearning #brandstorytelling\n#ecommerce #appliedmarketing\n\nKeywords: content production, eLearning, brand storytelling, creative, collaboration, Applied Marketing, eCommerce [...] Ankit Narayan\nBuilding Wiingy | Marketing Creative Specialist | Ex- Digiaccel Learning, Josh Talks\nNorth Delhi, India\n500 connections, 3354 followers\n\n\nAbout:\nAnkit Narayan is an economist turned storyteller and an accomplished Head of Production, with a proven track record in managing production processes and creating impactful content. [...] At Wiingy, Ankit is dedicated to developing innovative strategies that elevate content and drive business growth. His passion lies in creating engaging learning experiences that resonate with audiences, all while fostering collaboration and innovation within his teams. Ankit is always eager to connect and explore how he can collaborate to shape the future of educational content.",
+          "score": 0.56575525
+        },
+        {
+          "title": "Anchit Narayan - Software Engineer - AI Agents - Bicycle AI - LinkedIn",
+          "url": "https://in.linkedin.com/in/anchitna",
+          "content": "Full Stack Engineer at Raptor Supplies Limited (https://www.linkedin.com/company/raptor-supplies/)\nOct 2023 - Jan 2025\nNew Delhi, Delhi, India\nFull Stack Engineer at Raptor Supplies, specializing in backend technologies using Python.\n\nDesigned and implemented a PostgreSQL database capable of handling over 10 million records efficiently. [...] Data Science Intern at blinkX (https://www.linkedin.com/company/getblinkx/)\nMar 2023 - May 2023\nMumbai, Maharashtra, India\n\nSoftware Engineer at FICO (https://www.linkedin.com/company/fico/)\nJul 2019 - Jul 2022\nBengaluru, Karnataka, India\n\nSoftware Engineer Intern at FICO (https://www.linkedin.com/company/fico/)\nJan 2019 - Jun 2019\nBengaluru, Karnataka, India [...] Currently working on an advanced Retrieval Augmented Generation (RAG) system, where agents call custom functions to determine user intent. The system recursively asks questions to understand the query better, improving the output of Large Language Models (LLM). This project aims to develop a ChatGPT-like engine tailored for the MRO (Maintenance, Repair, and Operations) industry.",
+          "score": 0.45667687
+        },
+        {
+          "title": "Sanskrit Conferences 2024, Australia - BAPS",
+          "url": "https://www.baps.org/News/2024/Sanskrit-Conferences-2024-26710.aspx",
+          "content": "In Sydney, Sai\u00a0Paravastu, National President of Hindu Council of Australia and Pandit Narayan Bhatt, founder of the Hindu Heritage Society addressed the conference. Representatives from 30 organizations also attended the conference. [...] QUICK LINKS\nDAILY SATSANG LATEST UPDATES CALENDAR & FESTIVALS ENLIGHTENING ESSAYS \u0ab8\u0aa4\u0acd\u0ab8\u0a82\u0a97 \u0ab2\u0ac7\u0a96\u0aae\u0abe\u0ab3\u0abe SATSANG SABHA SATSANG EXAMS AUDIOS VIDEOS PRAYER DOWNLOADS FAQS GLOSSARY\n\n\n\n\n\nABOUT US\n\nSPIRITUAL LIVING\nHUMANITARIAN SERVICES\nCULTURE AND HERITAGE\nDEVELOPING INDIVIDUALS\n\n\nVICHARAN\nNEWS\nGLOBAL NETWORK\nINDIA\nNORTH AMERICA\nUK & EUROPE\nAFRICA\nASIA PACIFIC\nMIDDLE EAST\n\n\nPUBLICATIONS\nBOOKS\nAUDIO\nVIDEO\nMAGAZINES [...] In Brisbane,\u00a0Ms. Neetu\u00a0Bhagotia, the Consul General of India in Brisbane, along with leaders from 35 different organizations\u00a0attended the conference. Special guest speakers included\u00a0Dr. Adam Bowles,\u00a0Associate Professor in Asian Religions, Deputy Head of School, Director of Research and School Engagement\u00a0at the University of\u00a0Queensland;\u00a0and\u00a0Jon Raven,\u00a0Mayor of Logan\u00a0City.",
+          "score": 0.37463108
+        },
+        {
+          "title": "Suchitra Narayan speaking at World Conference Next ... - YouTube",
+          "url": "https://www.youtube.com/watch?v=p-E-RwPU6_A",
+          "content": "Suchitra Narayan speaking at World Conference Next Generation Testing 2022 16 Nov 2022, Bengaluru\nUNICOM\n846 subscribers\n\n35 views\n31 Oct 2022\nSuchitra Narayan, VP, J P Morgan Chase & Co, at UNICOM\u2019s conference \u201cWorld Conference Next Generation Testing 2022\u201d (16 November 2022, Bengaluru, India ).\nFor more information on the conference, visit https://www.unicomlearning.com/2022/software-testing-conference/bengaluru-india/\n\n16 November 2022, Bengaluru, India. In-Person and Digital Conference [...] hi I'm suchitra and I work as VP at JPMorgan and Chase part of sap world since the times of R3 and the current bifurcation of on-prem and Cloud Solutions covering over 17 years of experience at jpmc I work as sap Cloud strategist and also part of the digital transformation team web applications are increasingly resorted to Cloud platforms public Cloud platforms to most developers web security is rather an unpopular topic however previous Studies have shown that the virtualized infrastructure [...] used in Cloud environment can introduce performance issues as developers they need to address the issues should be more than agreeing to the fact of addressing the issues the performance issues are considered less interesting solely for the effort it takes to be taken care of it makes the development and testing harder as a process would need either to have to mock or simulate the entire process the challenge of authentication can be taken care by using right packing services with write",
+          "score": 0.30086932
+        },
+        {
+          "title": "Global Bhagavad Gita Convention - Ancient Wisdom for Modern Life",
+          "url": "https://globalgita.org/",
+          "content": "Narayanashrama Tapovanam/CIRD\nSwami Nirviseshananda Tirtha\nRead more [...] \u00ad\nGlobal Bhagavad Gita Convention - Ancient Wisdom for Modern Life\n info@globalgita.org\n\n\n\n\n\n\n\n\n\nGBGC 2022\nAbout\nSpeakers & Participants\nFAQs\nGBGC Timeline\n\n\nAgenda\nRegister\nPublications\nInsights\nQuotes\nBlogs\nJnana Prasada\n\n\nContribute\n\nWATCH LIVE\n      \n\n\nREGISTER NOW\nWhy Register?\nAbout Event\n\n\nSpeakers & Participants\nSpeakers and Participants for 2022 Global Bhagavad Gita Convention\n\n\nFounder, and Visionary, Narayanashrama Tapovanam/CIRD\nSwami Bhoomananda Tirtha\nRead more [...] All the sessions will be in English.\nHow can I view the convention events?\nGlobal Bhagavad Gita Convention 2022 is an online event on YouTube. GBGC 2022 can be viewed on your Desktop, Laptop, Tablet, and Mobile Devices.\nHow can I submit questions to Speakers?\nParticipants are encouraged to submit their questions ahead of the convention. Please submit them to info@globalgita.org.\nYou may subscribe to our YouTube Channel \u2013 https://www.youtube.com/user/Narayanashrama\nHow do I watch the event?",
+          "score": 0.1391976
+        },
+        {
+          "title": "Raj Narayan on LinkedIn: We've all heard the saying, \"It's not what ...",
+          "url": "https://www.linkedin.com/posts/raj-narayan-emajin-golf_weve-all-heard-the-saying-its-not-what-activity-7260030684520435712-Qiw-",
+          "content": "Let's share some stories in the comments!\n\n\ud83c\udfc6 Award-Winning Executive Branding Specialist | I Help Executives Build a C-Suite Personal Brand | Founder & CEO - The Executive Brand | Advisor To The Royal Office UAE | International Speaker\n\nI love #5 and I can personally attest to that.\n\nI give you the tools to not just have the conversations you need to have, but to get the best possible result from them [...] Agree & Join LinkedIn\n\nBy clicking Continue to join or sign in, you agree to LinkedIn\u2019s User Agreement, Privacy Policy, and Cookie Policy.\n\nRaj Narayan\u2019s Post\n\nFounder & CEO, Emajin Golf | Keynote Speaker | Podcast Host | Board Member | Golfer | Networking Reimagined for Modern Business\n\nWe've all heard the saying, \n\n\"It\u2019s not what you know, it\u2019s who you know.\"\n\nBut what we don't talk about enough is HOW we connect with the people we meet.\n\nThis is where Emotional Intelligence shines. [...] She makes sure to fill out handwritten notes after conferences and conventions. \n\nIn short, she's purposefully and strategically keeping her relationships strong, bit by bit.   \n\nThese are the same kind of actions I share with all who ask me for networking tips.  \n\nSome may balk at this - \"Isn't it slimy and fake to intentionally PLAN OUT when you'll check in on someone?\" \n\nNo.  It's not.  It's smart. \n\nIntentionality doesn't equal insincerity.",
+          "score": 0.13011979
+        },
+        {
+          "title": "Anchit | Working at raptor supplies limited - Weekday",
+          "url": "https://www.weekday.works/people/anchit-narayan-anchitna",
+          "content": "any team he works with. In summary, Anchit Narayan is a talented software engineer with a strong background in Big Data and Analytics. He has gained valuable experience in software development and has a diverse set of technical skills that make him a valuable addition to any team. Anchit is a dedicated worker who is always looking to improve his skills and collaborate with his colleagues to achieve project goals. [...] Anchit Narayan is a skilled software engineer with 3.86 years of experience in the industry. Currently working at FICO, he has gained expertise in various programming languages such as Python, JavaScript, and C. Anchit has a strong background in Big Data and Analytics, having pursued a Bachelor's degree in Computer Science with Honours in this field from Chandigarh University. Anchit's professional journey began as a Software Engineer Intern at FICO, where he gained hands-on experience in [...] plaksha university\nPost Graduate Diploma in AI, ML and Leadership\n2022 - 2023\n\nchandigarh university cu\nBachelor of Engineering\n2015 - 2019\nFrequently asked questions\nWhat company does Anchit Narayan work for?\n\nAnchit Narayan works for raptor supplies limited\nWhat is Anchit Narayan role in their workplace?\n\nAnchit Narayan's role in their workplace is Full Stack Engineer\nWhat is Anchit Narayan's tenure in their workplace?",
+          "score": 0.6227582
+        },
+        {
+          "title": "[PDF] FSN E\u2013COMMERCE VENTURES LIMITED - BofA Securities",
+          "url": "https://business.bofa.com/content/dam/flagship/in/en/investment-banking/FSN-E-Commerce-Ventures-Limited-DRHP.pdf",
+          "content": "1. Falguni Nayar Nil Nil 2. Sanjay Nayar Nil Nil 3. Sanjay Nayar Family Trust* 12,01,18,920 25.72 4. Falguni Nayar Family Trust** 10,43,05,770 22.33 Promoter Group 5. Anchit Nayar Family Trust*** 14,370,000 3.08 6. Adwaita Nayar Family Trust**** 14,370,000 3.08 7. Anchit Nayar 160,080 0.03 8. Adwaita Nayar 30,060 0.01 Total 253,354,830 54.25 *held through its trustees, Sanjay Nayar and Falguni Nayar. **held through its trustees, Falguni Nayar and Sanjay Nayar. ***held through its trustees, [...] Remuneration 171.49 63.77 53.48 Falguni Nayar 108.44 30.43 27.99 Adwaita Nayar 16.97 11.10 9.10 Anchit Nayar 18.60 7.48 3.58 Sachin Parikh 1.83 13.83 12.05 Arvind Agarwal 19.58 - - Pratik Bhujade 1.11 0.93 0.76 Rajendra Punde 4.96 - - Rent & maintenance expenses 28.44 27.06 17.68 Rashmi Mehta 2.42 2.43 2.02 Golf Land Developers Private Limited 26.02 24.63 15.66 Rent, maintenance, electricity & other expenses 29.37 27.81 24.92 Sealink View Probuild Private Limited 29.37 27.81 24.92 Security [...] 542,152 3.44% 8. Lighthouse India Fund III, Limited 484,462 3.07% 9. Mala Gaonkar 404,773 2.57% 10. Adwaita Nayar Family Trust (1) 400,000 2.54% 11. Anchit Nayar Family Trust (1) 400,000 2.54% 12. Rishabh Mariwala 185,727 1.18% 13. Yogesh Agencies & Investments Private Limited 184,615 1.17% 14. Kravis Investment Partners LLC 179,474 1.14% 15. J M Financial and Investment Consultancy Services Pvt. Ltd 152,187 0.96% Total 13,428,641 85.76% * The percentage of the pre-Offer equity share capital on",
+          "score": 0.6010557
+        },
+        {
+          "title": "Anchit Narayan - Software Engineer - AI Agents - Bicycle AI - LinkedIn",
+          "url": "https://in.linkedin.com/in/anchitna",
+          "content": "Education:\nPlaksha University\nPost Graduate Diploma in AI, ML and Leadership\nAug 2022 - Jul 2023\nGrade: N/A\nActivities and societies: N/A\n\nChandigarh University (CU)\nBachelor of Engineering, Computer Science with Honours in Big Data & Analytics\nJan 2015 - Jan 2019\nGrade: N/A\nActivities and societies: N/A [...] Data Science Intern at blinkX (https://www.linkedin.com/company/getblinkx/)\nMar 2023 - May 2023\nMumbai, Maharashtra, India\n\nSoftware Engineer at FICO (https://www.linkedin.com/company/fico/)\nJul 2019 - Jul 2022\nBengaluru, Karnataka, India\n\nSoftware Engineer Intern at FICO (https://www.linkedin.com/company/fico/)\nJan 2019 - Jun 2019\nBengaluru, Karnataka, India [...] Full Stack Engineer at Raptor Supplies Limited (https://www.linkedin.com/company/raptor-supplies/)\nOct 2023 - Jan 2025\nNew Delhi, Delhi, India\nFull Stack Engineer at Raptor Supplies, specializing in backend technologies using Python.\n\nDesigned and implemented a PostgreSQL database capable of handling over 10 million records efficiently.",
+          "score": 0.5510187
+        }
+      ]
+    }
+  },
+  "candidate_profile": {
+    "name": "Anchit Narayan",
+    "resume_data": {
+      "education": [
+        {
+          "institution": "Plaksha University",
+          "degree": "Post Graduate Diploma",
+          "field": "AI, ML & Leadership",
+          "dates": "08/2023"
+        },
+        {
+          "institution": "Chandigarh University",
+          "degree": "B.E.",
+          "field": "Computer Science & Engineering",
+          "dates": "07/2019"
+        }
+      ],
+      "work_experience": [
+        {
+          "company": "Bicycle AI",
+          "title": "Software Engineer - AI Agents",
+          "duration": "01/2025 - Current",
+          "responsibilities": [
+            "Designed and implemented a LangGraph-based workflow that generates personalized sales content tailored to target companies.",
+            "Developed a report and data story generator tailored to company-specific requirements.",
+            "Created a unified workflow to handle multiple LLM model and stream outputs in real time."
+          ]
+        },
+        {
+          "company": "Raptor Supplies Limited",
+          "title": "Full Stack Engineer",
+          "duration": "10/2023 - 01/2025",
+          "responsibilities": [
+            "Specialized in AI and backend technologies using Python, FastAPI, Elastic Search, Postgres and LangChain.",
+            "Developed a Product Search Engine for the organization using Elastic Search.",
+            "Worked on an advanced Retrieval Augmented Generation (RAG) system designed for the MRO industry."
+          ]
+        },
+        {
+          "company": "JM Financial (blinkX)",
+          "title": "Data Science Intern",
+          "duration": "03/2023 - 05/2023",
+          "responsibilities": [
+            "Developed a Text Summarization workflow to summarize a 200-page financial document.",
+            "Created a workflow to create fragments and word embeddings of more than 1000 documents."
+          ]
+        },
+        {
+          "company": "FICO",
+          "title": "Software Engineer",
+          "duration": "07/2019 - 06/2022",
+          "responsibilities": [
+            "Worked on Angular, TypeScript and JavaScript to develop a Rapid Action Development Tool.",
+            "Created a workflow to create fragments and word embeddings of more than 1000 documents.",
+            "Worked on Cloudify to automate deployment notifications."
+          ]
+        }
+      ],
+      "skills": [
+        "Python",
+        "C/C++",
+        "JavaScript",
+        "SQL",
+        "FastAPI",
+        "Uvicorn",
+        "Nginx",
+        "AWS (EC2, RDS)",
+        "GCP",
+        "Git",
+        "LangChain",
+        "LangGraph",
+        "Problem Solving",
+        "Data Structures & Algorithms",
+        "Object Oriented Programming",
+        "Elastic Search",
+        "Redis",
+        "PostgreSQL",
+        "MySQL",
+        "Qdrant"
+      ],
+      "certifications": [],
+      "publications": [],
+      "projects": [
+        "Sales Microsite \u2013 Bicycle AI",
+        "MRO Chat Engine Development \u2013 Raptor Supplies",
+        "Document RAG Pipeline Development \u2013 Raptor Supplies",
+        "MRO Product Search \u2013 Raptor Supplies"
+      ],
+      "online_profiles": {
+        "github": "https://github.com/anchitna",
+        "linkedin": "https://linkedin.com/in/anchitna/",
+        "personal_website": null,
+        "other_profiles": []
+      },
+      "raw_text": "ANCHIT\nNARAYAN\nanchit.na@gmail.com\n+91 9855816826\nNew Delhi India\nlinkedin.com/in/anchitna/\nhttps://github.com/anchitna/Experienced with creating robust software applications tailored to\nclient needs. I specialize in building AI-powered solutions using\nPython, FastAPI, Elasticsearch, LangChain and LangGraph. Strong\nunderstanding of software development lifecycle and agile\nmethodologies.PROFESSIONAL SUMMARY\nSKILLS\nProgramming: Python, C/C++,\nJavaScript, SQL.\u2022\nFrameworks: FastAPI, Uvicorn,\nNginx, AWS(EC2, RDS), GCP , Git,\nLangChain, LangGraph.\u2022\nSkills: Problem Solving, Data\nStructures & Algorithms, Object\nOriented Programming.\u2022\nDatabases: Elastic Search, Redis,\nPostgreSQL, MySQL, Qdrant.\u2022\nPlaksha University\nMohali, India \u202208/2023\nPost Graduate Diploma :AI, ML &\nLeadership\nSelected as one of 60 students from\na pool of over 1,000 applicants\nChandigarh University\nMohali, India \u202207/2019\nB.E.:Computer Science &\nEngineering\nGraduated with an Honours in Big\nData EngineeringEDUCATIONBicycle AI  - Software Engineer - AI Agents\nHyderabad, India \u202201/2025  - Current\nRaptor Supplies Limited  - Full Stack Engineer\nNew Delhi, India \u202210/2023  - 01/2025WORK HISTORY\nDesigned and implemented a LangGraph-based workflow that\ngenerates personalized sales content tailored to target\ncompanies, based on their domain input. The system automates\ncontent creation and integrates with a UI component to\ndynamically build custom websites for high-impact, company-\nspecific sales pitches.\u2022\nDeveloped a report and data story generator tailored to\ncompany-specific requirements, enabling dynamic content\ncreation from internal data. Integrated a secure code execution\nenvironment to allow custom script execution by company users.\u2022\nCreated a unified workflow to handle multiple LLM model and\nstream outputs in real time, enabling the UI component to\ndisplay responses continuously for a seamless user experience.\u2022\nFull Stack Engineer at Raptor Supplies, specializing in AI and\nbackend technologies using Python, FastAPI, Elastic Search,\nPostgres and LangChain.\u2022\nDeveloped a Product Search Engine for the organization using\nElastic Search, initially exploring both semantic and lexical\nsearch methods before opting for a hybrid lexical search\napproach. Achieved a query time of 0.4 seconds in Elastic Search\nfor improved search performance.\u2022\nWorked on an advanced Retrieval Augmented Generation (RAG)\nsystem designed for the MRO (Maintenance, Repair, and\nOperations) industry. This system utilizes custom models and a\nprompt-based approach for intent classification and entity\nrecognition, and it integrates with a database via Elasticsearch.\nThe entire setup is hosted on Amazon EC2 with a FastAPI\napplication and Nginx serving as the load balancer.\u2022\nThe project aims to create a ChatGPT-like engine specifically\ntailored for the MRO sector, with various components that can\nalso function independently.\u2022\n\nJM Financial (blinkX)  - Data Science Intern\nMumbai, India \u202203/2023  - 05/2023\nFICO - Software Engineer\nBengaluru, India \u202207/2019  - 06/2022Technical Skills: Python, FastAPI, Uvicorn, AWS, OpenAI, Git,\nLangchain, Postgres, Shell, Nginx, EC2.\u2022\nDeveloped a Text Summarization workflow to summarize a\n200-page financial document in 500, 1000 and 5000 words each.\u2022\nCreated a workflow to create fragments and word embeddings of\nmore than 1000 documents of around 200 pages each.\u2022\nWorked on creating hyper-personalized nudge and\nrecommending based on user stock preference and market.\u2022\nTechnical Skills: Python, GCP , Pandas, scikit-learn, OpenAI,\nNumpy.\u2022\nWorked on Angular, TypeScript and JavaScript to develop a Rapid\nAction Development Tool.\u2022\nCreated a workflow to create fragments and word embeddings of\nmore than 1000 documents of around 200 pages each.\u2022\nWorked on Cloudify (an orchestration tool) to automate\ndeployment notifications. Developed a shell system which\nconnects with the database and automatically informs users\nabout the status of their deployments.\u2022\nWorked on Jenkins to automate and schedule manual tasks.\u2022\nJoined as an intern in January 2019 for 6 months and\nsuccessfully transitioned to a full-time position. Developed an\nAnsible Plugin to automate the workflow, including the\ninstallation of Ansible on the VM and execution of playbooks with\nvarious inputs across multiple nodes.\u2022\nTechnical Skills: Javascript, Typescript, Java, Ansible, Cloudify,\nScripting.\u2022\nEnglish: Professional proficiency Hindi: Native proficiencyLANGUAGES\nPROJECTS\nSales Microsite  \u2013 Bicycle AI\nDeveloped a LangGraph-based workflow that generates\npersonalized sales content from a target company's domain,\nhelping the sales team craft tailored value propositions. The\ngenerated content is streamed to a UI component to build\ndynamic microsites for personalized outbound sales campaigns.\nTechnologies: LangGraph, Claude, OpenAI, Python\u2022\nMRO Chat Engine Development  \u2013 Raptor Supplies\nDesigned a ChatGPT-like engine for the MRO industry using a\nmodular RAG architecture with dedicated components for intent\nclassification, entity recognition, and Elasticsearch-backed\nretrieval. Experimented with agentic models (CrewAI, OpenAI\nAssistants) for early-stage automation, later optimizing with a\ncustom workflow.\nTechnologies: FastAPI, React, Qdrant, LangChain, OpenAI,\nHugging Face, Python\u2022\nDocument RAG Pipeline Development  \u2013 Raptor Supplies\nBuilt a document RAG pipeline using PDFMiner for text\nextraction and image conversion from PDFs, leveraging OpenAI\u2022\nand Gemini for image analysis and table extraction.\nImplemented chunking and Qdrant-based embedding search to\nenhance document-query performance.\nTechnologies: PDFMiner, OpenAI, Gemini, Qdrant\nMRO Product Search  \u2013 Raptor Supplies\nDeveloped a lexical search engine for MRO products using\nElasticsearch, enabling efficient and accurate product retrieval\nfrom large catalogs.\nTechnologies: Elasticsearch\u2022\nACHIEVEMENTS\n2020 Leadership, Led a team of interns, providing training on\ndesign principles and project-specific technologies.\u2022\n2019 Spot Award, Awarded by spot award(recognition for work)\nin consecutive months.\u2022\n2014 School Football Team Captain, Captained football team in\nClass XIIth.\u2022"
+    },
+    "web_research": {
+      "github_info": {
+        "username": "anchitna",
+        "url": "https://github.com/anchitna",
+        "primary_languages": [
+          "Python",
+          "Java",
+          "Jupyter Notebook"
+        ],
+        "key_projects": [
+          {
+            "name": "airline_data_cleaning",
+            "description": "A data cleaning pipeline for Airline Data Cleaning.",
+            "technologies": [
+              "Python",
+              "FastAPI",
+              "Uvicorn"
+            ],
+            "purpose": "To clean and process airline data using a FastAPI application.",
+            "complexity": "Medium",
+            "notable_features": [
+              "FastAPI setup",
+              "Virtual environment management",
+              "API documentation"
+            ]
+          },
+          {
+            "name": "ProjectsAndApplicationOfDataScience",
+            "description": "A collection of data science projects.",
+            "technologies": [
+              "Jupyter Notebook"
+            ],
+            "purpose": "To explore and apply data science techniques.",
+            "complexity": "Low",
+            "notable_features": []
+          },
+          {
+            "name": "PlacementAutomation",
+            "description": "A system for universities to handle placements.",
+            "technologies": [
+              "Java"
+            ],
+            "purpose": "To automate the placement process in universities.",
+            "complexity": "Medium",
+            "notable_features": []
+          },
+          {
+            "name": "BlogSite",
+            "description": "A blogging website.",
+            "technologies": [
+              "Python"
+            ],
+            "purpose": "To provide a platform for blogging.",
+            "complexity": "Low",
+            "notable_features": []
+          }
+        ]
+      },
+      "blog_posts": [],
+      "conference_appearances": [],
+      "news_mentions": [],
+      "social_profiles": {
+        "linkedin": "https://in.linkedin.com/in/anchitna",
+        "twitter": "",
+        "other": ""
+      },
+      "raw_data": {
+        "github": {
+          "user_info": {
+            "username": "anchitna",
+            "name": "Anchit Narayan",
+            "bio": null,
+            "location": null,
+            "company": null,
+            "website": null,
+            "twitter": null
+          },
+          "repositories": [
+            {
+              "name": "airline_data_cleaning",
+              "description": "A data cleaning pipeline, currently working for Airline Data Cleaning.",
+              "language": "Python",
+              "stars": "0",
+              "forks": "0",
+              "updated_at": "2024-11-15T15:20:39Z",
+              "html_url": "https://github.com/anchitna/airline_data_cleaning",
+              "readme": "Installation Guide\nFollow these steps to set up the project locally\nClone the Repository: (\nhttps://github.com/anchitna/airline_data_cleaning.git\n)\ncd airline_data_cleaning\nCreate a Virtual Environment\nIt's recommended to use a virtual environment to manage dependencies.\nbash\npython3 -m venv venv\nActivate the virtual environment:\nOn Unix or MacOS:\nsource venv/bin/activate\nOn Windows:\nvenv\\Scripts\\activate\nInstall Dependencies\npip install --upgrade pip\npip install -r requirements.txt\nEnvironment File\nvi .env\nNeed to set up keys to access the LLM and PandasAI.\nOPENAI_API_KEY\nPANDASAI_API_KEY\nQuick Start\nStart the FastAPI application using Uvicorn.\nuvicorn main:app --reload\nmain: The Python file where your FastAPI app instance is located (e.g., main.py).\napp: The FastAPI instance (e.g., app = FastAPI()).\n--reload: Enables auto-reloading on code changes (useful during development).\nAfter running the command, you should see output similar to:\nINFO:     Uvicorn running on\nhttp://127.0.0.1:8000\n(Press CTRL+C to quit)\nINFO:     Started reloader process [28724] using statreload\nINFO:     Started server process [28726]\nINFO:     Waiting for application startup.\nINFO:     Application startup complete.\nUsage\nAccessing the API\nOnce the server is running, you can interact with the API endpoints.\nBase URL:\nhttp://127.0.0.1:8000\nInteractive API Docs\nFastAPI provides interactive documentation out of the box."
+            },
+            {
+              "name": "ProjectsAndApplicationOfDataScience",
+              "description": null,
+              "language": "Jupyter Notebook",
+              "stars": "0",
+              "forks": "0",
+              "updated_at": "2023-02-04T13:11:09Z",
+              "html_url": "https://github.com/anchitna/ProjectsAndApplicationOfDataScience",
+              "readme": "ProjectsAndApplicationOfDataScience"
+            },
+            {
+              "name": "PlacementAutomation",
+              "description": "A system for University to handle Placements",
+              "language": "Java",
+              "stars": "0",
+              "forks": "0",
+              "updated_at": "2023-01-09T09:50:17Z",
+              "html_url": "https://github.com/anchitna/PlacementAutomation"
+            },
+            {
+              "name": "BlogSite",
+              "description": "A blogging website",
+              "language": "Python",
+              "stars": "0",
+              "forks": "0",
+              "updated_at": "2018-05-01T06:09:49Z",
+              "html_url": "https://github.com/anchitna/BlogSite"
+            }
+          ]
+        },
+        "search_results": [
+          {
+            "title": "Anchit | Working at raptor supplies limited - Weekday",
+            "url": "https://www.weekday.works/people/anchit-narayan-anchitna",
+            "content": "any team he works with. In summary, Anchit Narayan is a talented software engineer with a strong background in Big Data and Analytics. He has gained valuable experience in software development and has a diverse set of technical skills that make him a valuable addition to any team. Anchit is a dedicated worker who is always looking to improve his skills and collaborate with his colleagues to achieve project goals. [...] Anchit Narayan is a skilled software engineer with 3.86 years of experience in the industry. Currently working at FICO, he has gained expertise in various programming languages such as Python, JavaScript, and C. Anchit has a strong background in Big Data and Analytics, having pursued a Bachelor's degree in Computer Science with Honours in this field from Chandigarh University. Anchit's professional journey began as a Software Engineer Intern at FICO, where he gained hands-on experience in [...] plaksha university\nPost Graduate Diploma in AI, ML and Leadership\n2022 - 2023\n\nchandigarh university cu\nBachelor of Engineering\n2015 - 2019\nFrequently asked questions\nWhat company does Anchit Narayan work for?\n\nAnchit Narayan works for raptor supplies limited\nWhat is Anchit Narayan role in their workplace?\n\nAnchit Narayan's role in their workplace is Full Stack Engineer\nWhat is Anchit Narayan's tenure in their workplace?",
+            "score": 0.6708892
+          },
+          {
+            "title": "Anchit Narayan - Software Engineer - AI Agents - Bicycle AI - LinkedIn",
+            "url": "https://in.linkedin.com/in/anchitna",
+            "content": "Developed a Product Search Engine for Raptor Supplies using Elastic Search, initially exploring both semantic and lexical search methods before opting for a hybrid lexical search approach.\n\nAchieved a query time of 0.4 seconds in Elastic Search for improved search performance. [...] Data Science Intern at blinkX (https://www.linkedin.com/company/getblinkx/)\nMar 2023 - May 2023\nMumbai, Maharashtra, India\n\nSoftware Engineer at FICO (https://www.linkedin.com/company/fico/)\nJul 2019 - Jul 2022\nBengaluru, Karnataka, India\n\nSoftware Engineer Intern at FICO (https://www.linkedin.com/company/fico/)\nJan 2019 - Jun 2019\nBengaluru, Karnataka, India [...] Full Stack Engineer at Raptor Supplies Limited (https://www.linkedin.com/company/raptor-supplies/)\nOct 2023 - Jan 2025\nNew Delhi, Delhi, India\nFull Stack Engineer at Raptor Supplies, specializing in backend technologies using Python.\n\nDesigned and implemented a PostgreSQL database capable of handling over 10 million records efficiently.",
+            "score": 0.57723385
+          },
+          {
+            "title": "Ankit Narayan - Lead Marketing Content & Production - Wiingy",
+            "url": "https://in.linkedin.com/in/ankitxnarayan",
+            "content": "#contentproduction #elearning #brandstorytelling\n#ecommerce #appliedmarketing\n\nKeywords: content production, eLearning, brand storytelling, creative, collaboration, Applied Marketing, eCommerce [...] Ankit Narayan\nBuilding Wiingy | Marketing Creative Specialist | Ex- Digiaccel Learning, Josh Talks\nNorth Delhi, India\n500 connections, 3354 followers\n\n\nAbout:\nAnkit Narayan is an economist turned storyteller and an accomplished Head of Production, with a proven track record in managing production processes and creating impactful content. [...] At Wiingy, Ankit is dedicated to developing innovative strategies that elevate content and drive business growth. His passion lies in creating engaging learning experiences that resonate with audiences, all while fostering collaboration and innovation within his teams. Ankit is always eager to connect and explore how he can collaborate to shape the future of educational content.",
+            "score": 0.56575525
+          },
+          {
+            "title": "Anchit Narayan - Software Engineer - AI Agents - Bicycle AI - LinkedIn",
+            "url": "https://in.linkedin.com/in/anchitna",
+            "content": "Full Stack Engineer at Raptor Supplies Limited (https://www.linkedin.com/company/raptor-supplies/)\nOct 2023 - Jan 2025\nNew Delhi, Delhi, India\nFull Stack Engineer at Raptor Supplies, specializing in backend technologies using Python.\n\nDesigned and implemented a PostgreSQL database capable of handling over 10 million records efficiently. [...] Data Science Intern at blinkX (https://www.linkedin.com/company/getblinkx/)\nMar 2023 - May 2023\nMumbai, Maharashtra, India\n\nSoftware Engineer at FICO (https://www.linkedin.com/company/fico/)\nJul 2019 - Jul 2022\nBengaluru, Karnataka, India\n\nSoftware Engineer Intern at FICO (https://www.linkedin.com/company/fico/)\nJan 2019 - Jun 2019\nBengaluru, Karnataka, India [...] Currently working on an advanced Retrieval Augmented Generation (RAG) system, where agents call custom functions to determine user intent. The system recursively asks questions to understand the query better, improving the output of Large Language Models (LLM). This project aims to develop a ChatGPT-like engine tailored for the MRO (Maintenance, Repair, and Operations) industry.",
+            "score": 0.45667687
+          },
+          {
+            "title": "Sanskrit Conferences 2024, Australia - BAPS",
+            "url": "https://www.baps.org/News/2024/Sanskrit-Conferences-2024-26710.aspx",
+            "content": "In Sydney, Sai\u00a0Paravastu, National President of Hindu Council of Australia and Pandit Narayan Bhatt, founder of the Hindu Heritage Society addressed the conference. Representatives from 30 organizations also attended the conference. [...] QUICK LINKS\nDAILY SATSANG LATEST UPDATES CALENDAR & FESTIVALS ENLIGHTENING ESSAYS \u0ab8\u0aa4\u0acd\u0ab8\u0a82\u0a97 \u0ab2\u0ac7\u0a96\u0aae\u0abe\u0ab3\u0abe SATSANG SABHA SATSANG EXAMS AUDIOS VIDEOS PRAYER DOWNLOADS FAQS GLOSSARY\n\n\n\n\n\nABOUT US\n\nSPIRITUAL LIVING\nHUMANITARIAN SERVICES\nCULTURE AND HERITAGE\nDEVELOPING INDIVIDUALS\n\n\nVICHARAN\nNEWS\nGLOBAL NETWORK\nINDIA\nNORTH AMERICA\nUK & EUROPE\nAFRICA\nASIA PACIFIC\nMIDDLE EAST\n\n\nPUBLICATIONS\nBOOKS\nAUDIO\nVIDEO\nMAGAZINES [...] In Brisbane,\u00a0Ms. Neetu\u00a0Bhagotia, the Consul General of India in Brisbane, along with leaders from 35 different organizations\u00a0attended the conference. Special guest speakers included\u00a0Dr. Adam Bowles,\u00a0Associate Professor in Asian Religions, Deputy Head of School, Director of Research and School Engagement\u00a0at the University of\u00a0Queensland;\u00a0and\u00a0Jon Raven,\u00a0Mayor of Logan\u00a0City.",
+            "score": 0.37463108
+          },
+          {
+            "title": "Suchitra Narayan speaking at World Conference Next ... - YouTube",
+            "url": "https://www.youtube.com/watch?v=p-E-RwPU6_A",
+            "content": "Suchitra Narayan speaking at World Conference Next Generation Testing 2022 16 Nov 2022, Bengaluru\nUNICOM\n846 subscribers\n\n35 views\n31 Oct 2022\nSuchitra Narayan, VP, J P Morgan Chase & Co, at UNICOM\u2019s conference \u201cWorld Conference Next Generation Testing 2022\u201d (16 November 2022, Bengaluru, India ).\nFor more information on the conference, visit https://www.unicomlearning.com/2022/software-testing-conference/bengaluru-india/\n\n16 November 2022, Bengaluru, India. In-Person and Digital Conference [...] hi I'm suchitra and I work as VP at JPMorgan and Chase part of sap world since the times of R3 and the current bifurcation of on-prem and Cloud Solutions covering over 17 years of experience at jpmc I work as sap Cloud strategist and also part of the digital transformation team web applications are increasingly resorted to Cloud platforms public Cloud platforms to most developers web security is rather an unpopular topic however previous Studies have shown that the virtualized infrastructure [...] used in Cloud environment can introduce performance issues as developers they need to address the issues should be more than agreeing to the fact of addressing the issues the performance issues are considered less interesting solely for the effort it takes to be taken care of it makes the development and testing harder as a process would need either to have to mock or simulate the entire process the challenge of authentication can be taken care by using right packing services with write",
+            "score": 0.30086932
+          },
+          {
+            "title": "Global Bhagavad Gita Convention - Ancient Wisdom for Modern Life",
+            "url": "https://globalgita.org/",
+            "content": "Narayanashrama Tapovanam/CIRD\nSwami Nirviseshananda Tirtha\nRead more [...] \u00ad\nGlobal Bhagavad Gita Convention - Ancient Wisdom for Modern Life\n info@globalgita.org\n\n\n\n\n\n\n\n\n\nGBGC 2022\nAbout\nSpeakers & Participants\nFAQs\nGBGC Timeline\n\n\nAgenda\nRegister\nPublications\nInsights\nQuotes\nBlogs\nJnana Prasada\n\n\nContribute\n\nWATCH LIVE\n      \n\n\nREGISTER NOW\nWhy Register?\nAbout Event\n\n\nSpeakers & Participants\nSpeakers and Participants for 2022 Global Bhagavad Gita Convention\n\n\nFounder, and Visionary, Narayanashrama Tapovanam/CIRD\nSwami Bhoomananda Tirtha\nRead more [...] All the sessions will be in English.\nHow can I view the convention events?\nGlobal Bhagavad Gita Convention 2022 is an online event on YouTube. GBGC 2022 can be viewed on your Desktop, Laptop, Tablet, and Mobile Devices.\nHow can I submit questions to Speakers?\nParticipants are encouraged to submit their questions ahead of the convention. Please submit them to info@globalgita.org.\nYou may subscribe to our YouTube Channel \u2013 https://www.youtube.com/user/Narayanashrama\nHow do I watch the event?",
+            "score": 0.1391976
+          },
+          {
+            "title": "Raj Narayan on LinkedIn: We've all heard the saying, \"It's not what ...",
+            "url": "https://www.linkedin.com/posts/raj-narayan-emajin-golf_weve-all-heard-the-saying-its-not-what-activity-7260030684520435712-Qiw-",
+            "content": "Let's share some stories in the comments!\n\n\ud83c\udfc6 Award-Winning Executive Branding Specialist | I Help Executives Build a C-Suite Personal Brand | Founder & CEO - The Executive Brand | Advisor To The Royal Office UAE | International Speaker\n\nI love #5 and I can personally attest to that.\n\nI give you the tools to not just have the conversations you need to have, but to get the best possible result from them [...] Agree & Join LinkedIn\n\nBy clicking Continue to join or sign in, you agree to LinkedIn\u2019s User Agreement, Privacy Policy, and Cookie Policy.\n\nRaj Narayan\u2019s Post\n\nFounder & CEO, Emajin Golf | Keynote Speaker | Podcast Host | Board Member | Golfer | Networking Reimagined for Modern Business\n\nWe've all heard the saying, \n\n\"It\u2019s not what you know, it\u2019s who you know.\"\n\nBut what we don't talk about enough is HOW we connect with the people we meet.\n\nThis is where Emotional Intelligence shines. [...] She makes sure to fill out handwritten notes after conferences and conventions. \n\nIn short, she's purposefully and strategically keeping her relationships strong, bit by bit.   \n\nThese are the same kind of actions I share with all who ask me for networking tips.  \n\nSome may balk at this - \"Isn't it slimy and fake to intentionally PLAN OUT when you'll check in on someone?\" \n\nNo.  It's not.  It's smart. \n\nIntentionality doesn't equal insincerity.",
+            "score": 0.13011979
+          },
+          {
+            "title": "Anchit | Working at raptor supplies limited - Weekday",
+            "url": "https://www.weekday.works/people/anchit-narayan-anchitna",
+            "content": "any team he works with. In summary, Anchit Narayan is a talented software engineer with a strong background in Big Data and Analytics. He has gained valuable experience in software development and has a diverse set of technical skills that make him a valuable addition to any team. Anchit is a dedicated worker who is always looking to improve his skills and collaborate with his colleagues to achieve project goals. [...] Anchit Narayan is a skilled software engineer with 3.86 years of experience in the industry. Currently working at FICO, he has gained expertise in various programming languages such as Python, JavaScript, and C. Anchit has a strong background in Big Data and Analytics, having pursued a Bachelor's degree in Computer Science with Honours in this field from Chandigarh University. Anchit's professional journey began as a Software Engineer Intern at FICO, where he gained hands-on experience in [...] plaksha university\nPost Graduate Diploma in AI, ML and Leadership\n2022 - 2023\n\nchandigarh university cu\nBachelor of Engineering\n2015 - 2019\nFrequently asked questions\nWhat company does Anchit Narayan work for?\n\nAnchit Narayan works for raptor supplies limited\nWhat is Anchit Narayan role in their workplace?\n\nAnchit Narayan's role in their workplace is Full Stack Engineer\nWhat is Anchit Narayan's tenure in their workplace?",
+            "score": 0.6227582
+          },
+          {
+            "title": "[PDF] FSN E\u2013COMMERCE VENTURES LIMITED - BofA Securities",
+            "url": "https://business.bofa.com/content/dam/flagship/in/en/investment-banking/FSN-E-Commerce-Ventures-Limited-DRHP.pdf",
+            "content": "1. Falguni Nayar Nil Nil 2. Sanjay Nayar Nil Nil 3. Sanjay Nayar Family Trust* 12,01,18,920 25.72 4. Falguni Nayar Family Trust** 10,43,05,770 22.33 Promoter Group 5. Anchit Nayar Family Trust*** 14,370,000 3.08 6. Adwaita Nayar Family Trust**** 14,370,000 3.08 7. Anchit Nayar 160,080 0.03 8. Adwaita Nayar 30,060 0.01 Total 253,354,830 54.25 *held through its trustees, Sanjay Nayar and Falguni Nayar. **held through its trustees, Falguni Nayar and Sanjay Nayar. ***held through its trustees, [...] Remuneration 171.49 63.77 53.48 Falguni Nayar 108.44 30.43 27.99 Adwaita Nayar 16.97 11.10 9.10 Anchit Nayar 18.60 7.48 3.58 Sachin Parikh 1.83 13.83 12.05 Arvind Agarwal 19.58 - - Pratik Bhujade 1.11 0.93 0.76 Rajendra Punde 4.96 - - Rent & maintenance expenses 28.44 27.06 17.68 Rashmi Mehta 2.42 2.43 2.02 Golf Land Developers Private Limited 26.02 24.63 15.66 Rent, maintenance, electricity & other expenses 29.37 27.81 24.92 Sealink View Probuild Private Limited 29.37 27.81 24.92 Security [...] 542,152 3.44% 8. Lighthouse India Fund III, Limited 484,462 3.07% 9. Mala Gaonkar 404,773 2.57% 10. Adwaita Nayar Family Trust (1) 400,000 2.54% 11. Anchit Nayar Family Trust (1) 400,000 2.54% 12. Rishabh Mariwala 185,727 1.18% 13. Yogesh Agencies & Investments Private Limited 184,615 1.17% 14. Kravis Investment Partners LLC 179,474 1.14% 15. J M Financial and Investment Consultancy Services Pvt. Ltd 152,187 0.96% Total 13,428,641 85.76% * The percentage of the pre-Offer equity share capital on",
+            "score": 0.6010557
+          },
+          {
+            "title": "Anchit Narayan - Software Engineer - AI Agents - Bicycle AI - LinkedIn",
+            "url": "https://in.linkedin.com/in/anchitna",
+            "content": "Education:\nPlaksha University\nPost Graduate Diploma in AI, ML and Leadership\nAug 2022 - Jul 2023\nGrade: N/A\nActivities and societies: N/A\n\nChandigarh University (CU)\nBachelor of Engineering, Computer Science with Honours in Big Data & Analytics\nJan 2015 - Jan 2019\nGrade: N/A\nActivities and societies: N/A [...] Data Science Intern at blinkX (https://www.linkedin.com/company/getblinkx/)\nMar 2023 - May 2023\nMumbai, Maharashtra, India\n\nSoftware Engineer at FICO (https://www.linkedin.com/company/fico/)\nJul 2019 - Jul 2022\nBengaluru, Karnataka, India\n\nSoftware Engineer Intern at FICO (https://www.linkedin.com/company/fico/)\nJan 2019 - Jun 2019\nBengaluru, Karnataka, India [...] Full Stack Engineer at Raptor Supplies Limited (https://www.linkedin.com/company/raptor-supplies/)\nOct 2023 - Jan 2025\nNew Delhi, Delhi, India\nFull Stack Engineer at Raptor Supplies, specializing in backend technologies using Python.\n\nDesigned and implemented a PostgreSQL database capable of handling over 10 million records efficiently.",
+            "score": 0.5510187
+          }
+        ]
+      }
+    },
+    "github_research": {
+      "github_profile": {
+        "username": "anchitna",
+        "url": "https://github.com/anchitna",
+        "activity_level": "Low",
+        "primary_languages": [
+          "Python",
+          "Java",
+          "Jupyter Notebook"
+        ],
+        "primary_technologies": [
+          "FastAPI",
+          "Uvicorn",
+          "Virtual Environments"
+        ]
+      },
+      "key_projects": [
+        {
+          "name": "airline_data_cleaning",
+          "description": "A data cleaning pipeline for Airline Data Cleaning.",
+          "technologies": [
+            "Python",
+            "FastAPI",
+            "Uvicorn"
+          ],
+          "purpose": "To clean and process airline data using a FastAPI application.",
+          "complexity": "Medium",
+          "notable_features": [
+            "FastAPI setup",
+            "Virtual environment management",
+            "API documentation"
+          ]
+        },
+        {
+          "name": "ProjectsAndApplicationOfDataScience",
+          "description": "A collection of data science projects.",
+          "technologies": [
+            "Jupyter Notebook"
+          ],
+          "purpose": "To explore and apply data science techniques.",
+          "complexity": "Low",
+          "notable_features": []
+        },
+        {
+          "name": "PlacementAutomation",
+          "description": "A system for universities to handle placements.",
+          "technologies": [
+            "Java"
+          ],
+          "purpose": "To automate the placement process in universities.",
+          "complexity": "Medium",
+          "notable_features": []
+        },
+        {
+          "name": "BlogSite",
+          "description": "A blogging website.",
+          "technologies": [
+            "Python"
+          ],
+          "purpose": "To provide a platform for blogging.",
+          "complexity": "Low",
+          "notable_features": []
+        }
+      ],
+      "coding_skills": {
+        "languages": [
+          {
+            "name": "Python",
+            "proficiency": "Medium",
+            "evidence": "Used in multiple projects including 'airline_data_cleaning' and 'BlogSite'."
+          },
+          {
+            "name": "Java",
+            "proficiency": "Medium",
+            "evidence": "Used in 'PlacementAutomation' project."
+          },
+          {
+            "name": "Jupyter Notebook",
+            "proficiency": "Low",
+            "evidence": "Used in 'ProjectsAndApplicationOfDataScience'."
+          }
+        ],
+        "technical_strengths": [
+          "API development",
+          "Data cleaning"
+        ],
+        "areas_of_expertise": [
+          "FastAPI",
+          "Data Science"
+        ]
+      },
+      "overall_assessment": "Anchit Narayan's GitHub profile shows a focus on Python and Java projects with an emphasis on data cleaning and API development. The activity level is low, with no stars or forks, indicating limited external engagement. The use of FastAPI and virtual environments suggests a good understanding of modern Python web frameworks, but there is limited evidence of advanced software engineering practices such as testing or CI/CD.",
+      "raw_data": {
+        "user_info": {
+          "username": "anchitna",
+          "name": "Anchit Narayan",
+          "bio": null,
+          "location": null,
+          "company": null,
+          "website": null,
+          "twitter": null
+        },
+        "repositories": [
+          {
+            "name": "airline_data_cleaning",
+            "description": "A data cleaning pipeline, currently working for Airline Data Cleaning.",
+            "language": "Python",
+            "stars": "0",
+            "forks": "0",
+            "updated_at": "2024-11-15T15:20:39Z",
+            "html_url": "https://github.com/anchitna/airline_data_cleaning",
+            "readme": "Installation Guide\nFollow these steps to set up the project locally\nClone the Repository: (\nhttps://github.com/anchitna/airline_data_cleaning.git\n)\ncd airline_data_cleaning\nCreate a Virtual Environment\nIt's recommended to use a virtual environment to manage dependencies.\nbash\npython3 -m venv venv\nActivate the virtual environment:\nOn Unix or MacOS:\nsource venv/bin/activate\nOn Windows:\nvenv\\Scripts\\activate\nInstall Dependencies\npip install --upgrade pip\npip install -r requirements.txt\nEnvironment File\nvi .env\nNeed to set up keys to access the LLM and PandasAI.\nOPENAI_API_KEY\nPANDASAI_API_KEY\nQuick Start\nStart the FastAPI application using Uvicorn.\nuvicorn main:app --reload\nmain: The Python file where your FastAPI app instance is located (e.g., main.py).\napp: The FastAPI instance (e.g., app = FastAPI()).\n--reload: Enables auto-reloading on code changes (useful during development).\nAfter running the command, you should see output similar to:\nINFO:     Uvicorn running on\nhttp://127.0.0.1:8000\n(Press CTRL+C to quit)\nINFO:     Started reloader process [28724] using statreload\nINFO:     Started server process [28726]\nINFO:     Waiting for application startup.\nINFO:     Application startup complete.\nUsage\nAccessing the API\nOnce the server is running, you can interact with the API endpoints.\nBase URL:\nhttp://127.0.0.1:8000\nInteractive API Docs\nFastAPI provides interactive documentation out of the box."
+          },
+          {
+            "name": "ProjectsAndApplicationOfDataScience",
+            "description": null,
+            "language": "Jupyter Notebook",
+            "stars": "0",
+            "forks": "0",
+            "updated_at": "2023-02-04T13:11:09Z",
+            "html_url": "https://github.com/anchitna/ProjectsAndApplicationOfDataScience",
+            "readme": "ProjectsAndApplicationOfDataScience"
+          },
+          {
+            "name": "PlacementAutomation",
+            "description": "A system for University to handle Placements",
+            "language": "Java",
+            "stars": "0",
+            "forks": "0",
+            "updated_at": "2023-01-09T09:50:17Z",
+            "html_url": "https://github.com/anchitna/PlacementAutomation"
+          },
+          {
+            "name": "BlogSite",
+            "description": "A blogging website",
+            "language": "Python",
+            "stars": "0",
+            "forks": "0",
+            "updated_at": "2018-05-01T06:09:49Z",
+            "html_url": "https://github.com/anchitna/BlogSite"
+          }
+        ]
+      }
+    }
+  },
+  "comparison_result": {
+    "skill_matches": [
+      {
+        "skill": "Python",
+        "match_level": "High",
+        "details": "Anchit has extensive experience with Python, as evidenced by multiple projects and work experience."
+      },
+      {
+        "skill": "LangChain",
+        "match_level": "High",
+        "details": "Anchit has worked with LangChain in his role at Raptor Supplies, developing AI and backend technologies."
+      },
+      {
+        "skill": "LangGraph",
+        "match_level": "High",
+        "details": "Anchit has designed and implemented workflows using LangGraph at Bicycle AI."
+      },
+      {
+        "skill": "RAG systems",
+        "match_level": "High",
+        "details": "Anchit developed a Retrieval Augmented Generation system at Raptor Supplies."
+      },
+      {
+        "skill": "LLM-powered agents",
+        "match_level": "Medium",
+        "details": "Anchit has experience with LLM models and workflows, but specific experience with LLM-powered agents is not detailed."
+      },
+      {
+        "skill": "Full-stack development",
+        "match_level": "High",
+        "details": "Anchit has full-stack development experience, particularly in his role at Raptor Supplies."
+      },
+      {
+        "skill": "React",
+        "match_level": "Low",
+        "details": "React is mentioned in a project, but there is limited evidence of extensive experience."
+      },
+      {
+        "skill": "Cloud infrastructure",
+        "match_level": "Medium",
+        "details": "Anchit has experience with AWS and GCP, indicating some familiarity with cloud infrastructure."
+      },
+      {
+        "skill": "Vector databases",
+        "match_level": "Medium",
+        "details": "Experience with Qdrant, a vector database, is mentioned in projects."
+      },
+      {
+        "skill": "Fine-tuning LLMs",
+        "match_level": "None",
+        "details": "No specific experience with fine-tuning LLMs is mentioned."
+      }
+    ],
+    "experience_matches": [
+      {
+        "area": "AI and backend technologies",
+        "match_level": "High",
+        "details": "Anchit has significant experience in AI and backend technologies, particularly with Python and LangChain."
+      },
+      {
+        "area": "Full-stack development",
+        "match_level": "High",
+        "details": "Anchit has worked as a full-stack engineer, handling both backend and frontend tasks."
+      },
+      {
+        "area": "RAG systems",
+        "match_level": "High",
+        "details": "Anchit has developed RAG systems for the MRO industry."
+      },
+      {
+        "area": "LLM-powered agents",
+        "match_level": "Medium",
+        "details": "While Anchit has worked with LLM models, specific experience with LLM-powered agents is not detailed."
+      }
+    ],
+    "education_matches": [
+      {
+        "requirement": "Education requirement",
+        "match_level": "High",
+        "details": "Anchit holds a Post Graduate Diploma in AI, ML & Leadership and a B.E. in Computer Science & Engineering, which are relevant to the role."
+      }
+    ],
+    "overall_skill_match": "Strong",
+    "overall_experience_match": "Strong",
+    "overall_education_match": "Strong"
+  },
+  "final_decision": {
+    "fit_score": "Strong Fit",
+    "reasoning": "Anchit Narayan demonstrates a strong alignment with the core skills required for the job, including Python, LangChain, LangGraph, and RAG systems. His experience in full-stack development and AI and backend technologies is extensive, particularly in roles at Bicycle AI and Raptor Supplies. While there is limited evidence of experience with React and fine-tuning LLMs, his proficiency in cloud infrastructure and vector databases compensates for these gaps. Anchit's educational background in AI, ML, and Computer Science further supports his qualifications for the role. The candidate's potential for growth in areas like LLM-powered agents and fine-tuning LLMs suggests he can quickly adapt and expand his skill set in the role.",
+    "recommendations": [
+      "Proceed with a final interview to assess cultural fit and discuss potential growth areas.",
+      "Consider providing training or mentorship in React and fine-tuning LLMs to address minor skill gaps.",
+      "Evaluate the candidate's interest in long-term growth within the company to ensure alignment with organizational goals."
+    ]
+  },
+  "completed_nodes": [
+    "parse_resume",
+    "parse_job_description",
+    "github_research",
+    "web_research",
+    "create_candidate_profile",
+    "compare_candidate_to_job",
+    "generate_final_decision"
+  ]
+}

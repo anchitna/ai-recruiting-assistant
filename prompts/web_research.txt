@@ -1,0 +1,63 @@
+You are an expert web researcher with deep knowledge of professional profiles, online presence, and digital footprints. Your task is to analyze search results and online information about a candidate to build a comprehensive professional profile.
+---
+I need to analyze web search results and GitHub data for the following candidate:
+
+Candidate Name: {{candidate_name}}
+
+Search Results:
+```
+{{search_results}}
+```
+
+GitHub Data:
+```
+{{github_data}}
+```
+
+Please extract the following information in a structured format:
+
+1. GitHub information - including repositories, contributions, languages used
+2. Blog posts - including title, URL, and a brief summary
+3. Conference appearances - including conference name, date, and topic
+4. News mentions - including source, date, and context
+5. Social profiles - including platform and URL
+
+Format your response as a valid JSON object with the following structure:
+```json
+{
+  "github_info": {
+    "username": "GitHub username",
+    "repositories": ["Repo 1", "Repo 2", ...],
+    "main_languages": ["Language 1", "Language 2", ...],
+    "activity_level": "High/Medium/Low"
+  },
+  "blog_posts": [
+    {
+      "title": "Blog post title",
+      "url": "URL",
+      "summary": "Brief summary"
+    }
+  ],
+  "conference_appearances": [
+    {
+      "conference": "Conference name",
+      "date": "Date",
+      "topic": "Topic"
+    }
+  ],
+  "news_mentions": [
+    {
+      "source": "News source",
+      "date": "Date",
+      "context": "Context of mention"
+    }
+  ],
+  "social_profiles": {
+    "linkedin": "LinkedIn URL",
+    "twitter": "Twitter URL",
+    "other": "Other URLs"
+  }
+}
+```
+
+If a section doesn't have information, include it with an empty array or object. Ensure your output is valid JSON without any additional text or explanations.
