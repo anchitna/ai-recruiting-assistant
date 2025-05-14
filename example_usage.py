@@ -20,7 +20,7 @@ def main():
         logger.error("OPENAI_API_KEY environment variable not set")
         return
     
-    resume_path = "examples/Anchit_Narayan_Resume.pdf" 
+    resume_path = "examples/Anchit_Narayan_Resume_Github.pdf" 
     job_description_path = "examples/DoubleO_Job_Description.docx"
     
     workflow = RecruitingWorkflow()
@@ -40,7 +40,7 @@ def main():
     logger.info(f"Reasoning: {result['final_decision']['reasoning']}")
     logger.info(f"Recommendations: {', '.join(result['final_decision']['recommendations'])}")
     
-    with open("output/evaluation_result_without_github_resume.json", "w") as f:
+    with open("output/evaluation_result.json", "w") as f:
         json.dump(result, f, indent=2)
     
     logger.info("Detailed results saved to evaluation_result.json")
